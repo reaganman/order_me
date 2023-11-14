@@ -1,0 +1,10 @@
+#!/bin/sh
+#SBATCH --account=utu
+#SBATCH --partition=lonepeak
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH -o slurm-%j.out-%N
+#SBATCH -e slurm-%j.err-%N
+
+cd ~/fr10_evolution/order_me
+bash order_me.sh U44831 8342 /scratch/general/nfs1/utu_4310/fr10_evolution_wd/test_get_genomes 0.0001 reagan.mckee@utahtech.edu
