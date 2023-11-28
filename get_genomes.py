@@ -11,7 +11,7 @@ def download_genomes_for_order(taxid, email, save_path):
     retstart = 0
 
     # Create a directory for the order
-    order_directory = os.path.join(save_path, f"Genomes_{taxid}")
+    order_directory = os.path.join(save_path, f"Assemblies_{taxid}")
     if not os.path.exists(order_directory):
         os.makedirs(order_directory)
 
@@ -42,7 +42,7 @@ def download_genomes_for_order(taxid, email, save_path):
         retstart += retmax
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Download genomes for a specified order from NCBI.')
+    parser = argparse.ArgumentParser(description='Download assemblies for a specified order from NCBI.')
     parser.add_argument('--taxid', type=int, required=True, help='Taxonomic identifier for the order')
     parser.add_argument('--email', type=str, required=True, help='Your email address')
     parser.add_argument('--save_path', type=str, required=True, help='Path to save the order directory')

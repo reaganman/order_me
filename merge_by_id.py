@@ -41,18 +41,32 @@ def replace_x_with_gap(input_file, output_file):
     with open(output_file, 'w') as output_handle:
         SeqIO.write(records, output_handle, "fasta")
 
-def trim_seqs(input_file, output_file):
+def pad_seqs(input_file, output_file):
     records = list(SeqIO.parse(input_file, "fasta"))
-    min_length = min(len(record.seq) for record in records)
-    trimmed_records = [record[:min_length] for record in records]
-    SeqIO.write(trimmed_records, output_file, "fasta")
+    max_length = max(len(record.seq) for record in records)
+    padded_records = []
+    for record in records:
+        padding_length = max_length - len(record.seq)
+        padded_seq = record.seq + Seq('-' * padding_length)
+        padded_record = SeqRecord(padded_seq, id=record.id, description=record.description)
+        padded_records.append(padded_record)
+
+    SeqIO.write(padded_records, output_file, "fasta")
+
+def remove_query(input_file, query_id):
+    records_to_write = []
+    records = list(SeqIO.parse(input_file, 'fasta'))
+    for record in records: 
+        if query_id not in record.id: 
+            records_to_write.append(record)
+    SeqIO.write(records_to_write, input_file, 'fasta')
+
 
 if __name__ == '__main__':
     fin = sys.argv[1]
+    fout = sys.argv[2]
+    query = sys.argv[3]
     trimmed_fout = fin.rsplit('.')[0]+'_trimmed.fasta'
-    trim_seqs(fin, trimmed_fout)
-    merged_fout = trimmed_fout.rsplit('.')[0]+'_merged.fasta'
-    consensus_by_id(trimmed_fout, merged_fout)
-
-
-
+    pad_seqs(fin, trimmed_fout)
+    remove_query(trimmed_fout, query)
+    consensus_by_id(trimmed_fout, fout)

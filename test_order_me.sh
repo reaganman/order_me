@@ -1,42 +1,100 @@
-query=$1 #accesion number for gene/sequence to blast
-taxid=$2 #8342 taxid associated with order, find on https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/ 
-path_to_genomes=$3 #/scratch/general/nfs1/utu_4310/fr10_evolution_wd/test_get_genomes
-evalue=$4
-email=$5
-blast_type=$6
-Genomes="$path_to_genomes"/Genomes_"$taxid"/*
+# bash test_order_me.sh --save_path /scratch/general/nfs1/utu_4310/fr10_evolution_wd/test_get_genomes --query U44831 --taxid 8342 --email reagan.mckee@utahtech.edu
+
+
+#load environment
+query=''
+taxid=''
+email=''
+
 
 module load blast
 module load mafft
 module load iqtree
 
-#download query
+#set default values
+save_path=$(pwd)
+evalue=0.0001
+blast_type=blastn_short
+
+
+#get arguments
+while [[ $# -gt 0 ]]; do
+    key="$1"
+    case "$key" in
+        --query)
+            query="$2"
+            shift
+            shift
+            ;;
+        --taxid)
+            taxid="$2"
+            shift
+            shift
+            ;;
+        --save_path)
+            save_path="$2"
+            shift
+            shift
+            ;;
+        --evalue)
+            evalue="$2"
+            shift
+            shift
+            ;;
+        --email)
+            email="$2"
+            shift
+            shift
+            ;;
+        --blast_type)
+            blast_type="$2"
+            shift
+            shift
+            ;;
+        --setup)
+            setup="$2"
+            shift
+            shift
+            ;;
+        *)
+            echo "UNKOWN OPTION: $1"
+            echo "USAGE: bash order_me.sh --query <query> --taxid <taxid> --email <email> [other options...]"
+            exit 1
+            ;;
+    esac
+done
+
+if [[ ! "$query" || ! "$taxid" || ! "$email" ]]; then 
+    echo "USAGE: bash order_me.sh --query <query> --taxid <taxid> --email <email> [other options...]"
+    exit 1
+fi
+
+log="$query"_in_"$taxid"_log.txt
+
+
+#download and translate query
 curl "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=$query&rettype=fasta&retmode=text" > "$query".fasta
+python3 get_translation.py "$query".fasta "$query".fa
 
-python3 get_translation.py "$query".fasta "$query".fa  #translate query
 
-#download genomes
-#python3 get_genomes.py --taxid $taxid --email $email --save_path $path_to_genomes
+if [[ "$setup" ]]; then #setup blast
+    echo "downloading assemblies and making blast dbs!"
+    bash setup_blast.sh --save_path "$save_path" --taxid "$taxid" --email "$email"
+fi
 
-#unzip the fnas
-#for genome in $Genomes; do
-#	gunzip "$genome"/*fna.gz;
-#done
-
-#make blast dbs
-#for genome in $Genomes; do
-#    for fna_file in $(find "$genome" -name '*.fna'); do
-#        makeblastdb -dbtype nucl -in "$fna_file" -out "${fna_file%.fna}.db"
-#    done
-#done
 
 #run blast and merge results
-merged_results="$query"_in_"$taxid".fasta
-bash blast_em.sh "$Genomes" "$query" "$blast_type" "$evalue" "$merged_results"
+Assemblies="$save_path"/Assemblies_"$taxid"/
+final_aligned_results="$query"_in_"$taxid"_"$blast_type".fasta
+bash blast_em.sh --Assemblies "$Assemblies" --query "$query" --blast_type "$blast_type" --evalue "$evalue" --output_alignment "$final_aligned_results"
 
+
+echo "Alignment created: $final_aligned_results"
+echo "Check alignment then generate consensus tree with: bash make_tree.sh $final_aligned_results"
 
 #generate tree
 
-bash make_tree.sh "$merge_results"
+#bash make_tree.sh "$final_aligned_results"
+
 
 
