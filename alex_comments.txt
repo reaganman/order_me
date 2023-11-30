@@ -1,0 +1,6 @@
+I know you haven't focused on the README quite
+yet, but I think it would be helpful if you had
+maybe a diagram about how test_order_me.sh works
+and how it brings in the other files. If you don't
+want to do anything visual, probably a little
+subsection about each file.
