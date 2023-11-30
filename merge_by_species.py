@@ -6,7 +6,7 @@ from Bio.SeqRecord import SeqRecord
 import sys
 
 
-def consensus_by_species(input_file, output_file):
+def consensus_by_species(input_file, output_file, query):
     records = list(SeqIO.parse(input_file, 'fasta'))
     species_records = {}
     for record in records:
@@ -22,6 +22,7 @@ def consensus_by_species(input_file, output_file):
         seq_ids=[]
         for record in record_list: #get sequence ids
             record_id = record.id
+            print(f"record id: {record_id}")
             if record_id not in seq_ids:
                 seq_ids.append(record_id)
         temp_input_file = f"temp_input_{species}.fasta"
@@ -29,9 +30,10 @@ def consensus_by_species(input_file, output_file):
         alignment = AlignIO.read(temp_input_file, "fasta")
         summary_info = SummaryInfo(alignment)
         consensus_sequence = summary_info.dumb_consensus(threshold=0.51)
+        print(species)
         consensus_id = species + " " + " + ".join(seq_ids)
-        consensus_desription = species
-        consensus_record = SeqRecord(consensus_sequence, id=consensus_id)
+        consensus_desription = "Hit for: " + query
+        consensus_record = SeqRecord(consensus_sequence, id=consensus_id, description=consensus_desription)
         merged_records.append(consensus_record)
 
         SeqIO.write(merged_records, output_file, 'fasta')
@@ -77,7 +79,7 @@ if __name__ == '__main__':
     padded_fout = fin.rsplit('.')[0]+'_padded.fasta'
     pad_seqs(fin, padded_fout)
     remove_query(padded_fout, query)
-    consensus_by_species(padded_fout, fout)
+    consensus_by_species(padded_fout, fout, query)
 
 
 

@@ -101,8 +101,8 @@ case "$merge_by" in
         ;;
 esac
 
-final_results="${merged_fout%.fasta}_final.fasta"
-mafft "$merged_fout" > "$final_results"
+#final_results="${merged_fout%.fasta}_final.fasta"
+
 rm *temp*
 
 

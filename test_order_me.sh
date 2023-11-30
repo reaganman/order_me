@@ -1,7 +1,12 @@
+
+
 # bash test_order_me.sh --save_path /scratch/general/nfs1/utu_4310/fr10_evolution_wd/test_get_genomes --query U44831 --taxid 8342 --email reagan.mckee@utahtech.edu
 
 
 #load environment
+conda env create -f env.yml
+conda activate order_me_environment
+
 query=''
 taxid=''
 email=''
