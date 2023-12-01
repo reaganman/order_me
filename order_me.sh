@@ -102,7 +102,7 @@ results_dir="order_me_results"
 if [[ ! -d "$results_dir" ]]; then 
     mkdir "$results_dir"
 fi
-
+mv *results* $results_dir/
 
 echo "Alignment created: $results_dir/$final_aligned_results"
 echo "Check alignment then generate a consensus tree with: bash make_tree.sh $results_dir/$final_aligned_results"
