@@ -3,7 +3,15 @@ import os
 import subprocess
 import argparse
 
-def download_genomes_for_order(taxid, email, save_path):
+def download_assemblies_for_order(tax_id, email, save_path):
+    """
+    Download assemblies for a specified taxonomic order using Entrez from NCBI.
+
+    Args:
+        tax_id (int): Taxonomic identifier for the order.
+        email (str): Your email address for NCBI API usage.
+        save_path (str): Path to save the order directory.
+    """
     Entrez.email = email
 
     # Set the batch size and initial start index
@@ -11,42 +19,76 @@ def download_genomes_for_order(taxid, email, save_path):
     retstart = 0
 
     # Create a directory for the order
-    order_directory = os.path.join(save_path, f"Assemblies_{taxid}")
+    order_directory = os.path.join(save_path, f"Assemblies_{tax_id}")
     if not os.path.exists(order_directory):
         os.makedirs(order_directory)
 
     while True:
-        # Search for the genomes associated with the specified taxid
-        search_term = f"txid{taxid}[Organism] AND latest[filter] AND (latest_refseq[filter] OR latest_genbank[filter])"
-        handle = Entrez.esearch(db="assembly", term=search_term, retmax=retmax, retstart=retstart)
-        record = Entrez.read(handle)
-        id_list = record["IdList"]
+        try:
+            # Search for the assemblies associated with the specified tax_id
+            id_list = fetch_assembly_ids(tax_id, retmax, retstart)
+            if not id_list:
+                break
 
-        if len(id_list) == 0:
-            break
+            # Fetch the FTP paths for the assemblies and download all available files
+            download_assemblies(id_list, order_directory)
+            retstart += retmax
+        except Exception as e:
+            print(f"Error: {e}")
 
-        # Fetch the FTP paths for the genomes and download all available files
-        for genome_id in id_list:
-            handle = Entrez.esummary(db="assembly", id=genome_id)
+def fetch_assembly_ids(tax_id, retmax, retstart):
+    """
+    Fetch assembly IDs for a specified taxonomic order.
+
+    Args:
+        tax_id (int): Taxonomic identifier for the order.
+        retmax (int): Maximum number of records to retrieve.
+        retstart (int): Index of the first record to retrieve.
+
+    Returns:
+        list: List of assembly IDs.
+    """
+    search_term = f"txid{tax_id}[Organism] AND latest[filter] AND (latest_refseq[filter] OR latest_genbank[filter])"
+    handle = Entrez.esearch(db="assembly", term=search_term, retmax=retmax, retstart=retstart)
+    record = Entrez.read(handle)
+    return record["IdList"]
+
+def download_assemblies(id_list, order_directory):
+    """
+    Download assemblies for a list of assembly IDs.
+
+    Args:
+        id_list (list): List of assembly IDs.
+        order_directory (str): Path to the order directory.
+    """
+    for assembly_id in id_list:
+        try:
+            # Fetch information about the assembly
+            handle = Entrez.esummary(db="assembly", id=assembly_id)
             record = Entrez.read(handle)
             ftp_path = record["DocumentSummarySet"]["DocumentSummary"][0]["FtpPath_GenBank"]
-            organism_name = record["DocumentSummarySet"]["DocumentSummary"][0]["AssemblyName"]
-            directory_name = os.path.join(order_directory, organism_name.replace(" ", "_"))
+            assembly_name = record["DocumentSummarySet"]["DocumentSummary"][0]["AssemblyName"]
+
+            # Create a directory for the assembly
+            directory_name = os.path.join(order_directory, assembly_name.replace(" ", "_"))
             if not os.path.exists(directory_name):
                 os.makedirs(directory_name)
+
+            # Download files using wget
             os.chdir(directory_name)
             download_command = f"wget -r -nd -A '*' {ftp_path}"
             subprocess.call(download_command, shell=True)
             os.chdir('..')
-
-        retstart += retmax
+        except Exception as e:
+            print(f"Error downloading assembly {assembly_id}: {e}")
 
 if __name__ == "__main__":
+    # Argument parsing
     parser = argparse.ArgumentParser(description='Download assemblies for a specified order from NCBI.')
-    parser.add_argument('--taxid', type=int, required=True, help='Taxonomic identifier for the order')
+    parser.add_argument('--tax_id', type=int, required=True, help='Taxonomic identifier for the order')
     parser.add_argument('--email', type=str, required=True, help='Your email address')
     parser.add_argument('--save_path', type=str, required=True, help='Path to save the order directory')
     args = parser.parse_args()
 
-    download_genomes_for_order(args.taxid, args.email, args.save_path)
-
+    # Main execution
+    download_assemblies_for_order(args.tax_id, args.email, args.save_path)
