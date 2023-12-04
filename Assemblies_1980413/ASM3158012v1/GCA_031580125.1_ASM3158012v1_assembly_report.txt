@@ -1,0 +1,26 @@
+# Assembly name:  ASM3158012v1
+# Organism name:  Topografov hantavirus (viruses)
+# Infraspecific name:  strain=Ls136V
+# Taxid:          83192
+# Submitter:      na
+# Date:           1999-05-06
+# Assembly type:  na
+# Release type:   major
+# Assembly level: Complete Genome
+# Genome representation: full
+# Relation to type material: ICTV additional isolate
+# GenBank assembly accession: GCA_031580125.1
+#
+## Assembly-Units:
+## GenBank Unit Accession	RefSeq Unit Accession	Assembly-Unit name
+## GCA_031580124.1		Primary Assembly
+#
+# Ordered by chromosome/plasmid; the chromosomes/plasmids are followed by
+# unlocalized scaffolds.
+# Unplaced scaffolds are listed at the end.
+# RefSeq is equal or derived from GenBank object.
+#
+# Sequence-Name	Sequence-Role	Assigned-Molecule	Assigned-Molecule-Location/Type	GenBank-Accn	Relationship	RefSeq-Accn	Assembly-Unit	Sequence-Length	UCSC-style-name
+L	assembled-molecule	L	Segment	AJ011649.1	<>	na	Primary Assembly	333	na
+M	assembled-molecule	M	Segment	AJ011647.1	<>	na	Primary Assembly	3728	na
+S	assembled-molecule	S	Segment	AJ011646.1	<>	na	Primary Assembly	1951	na

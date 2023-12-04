@@ -1,0 +1,26 @@
+# Assembly name:  ASM3158050v1
+# Organism name:  Lianghe virus (viruses)
+# Infraspecific name:  strain=Lianghe-As-255
+# Taxid:          1314973
+# Submitter:      na
+# Date:           2013-04-09
+# Assembly type:  na
+# Release type:   major
+# Assembly level: Complete Genome
+# Genome representation: full
+# Relation to type material: ICTV additional isolate
+# GenBank assembly accession: GCA_031580505.1
+#
+## Assembly-Units:
+## GenBank Unit Accession	RefSeq Unit Accession	Assembly-Unit name
+## GCA_031580504.1		Primary Assembly
+#
+# Ordered by chromosome/plasmid; the chromosomes/plasmids are followed by
+# unlocalized scaffolds.
+# Unplaced scaffolds are listed at the end.
+# RefSeq is equal or derived from GenBank object.
+#
+# Sequence-Name	Sequence-Role	Assigned-Molecule	Assigned-Molecule-Location/Type	GenBank-Accn	Relationship	RefSeq-Accn	Assembly-Unit	Sequence-Length	UCSC-style-name
+L	assembled-molecule	L	Segment	JX465377.1	<>	na	Primary Assembly	330	na
+M	assembled-molecule	M	Segment	JX465395.1	<>	na	Primary Assembly	3628	na
+S	assembled-molecule	S	Segment	JX465411.1	<>	na	Primary Assembly	1804	na

@@ -1,0 +1,24 @@
+# Assembly name:  ASM3154527v1
+# Organism name:  Hantavirus KY (viruses)
+# Taxid:          691767
+# Submitter:      na
+# Date:           2009-11-12
+# Assembly type:  na
+# Release type:   major
+# Assembly level: Complete Genome
+# Genome representation: full
+# GenBank assembly accession: GCA_031545275.1
+#
+## Assembly-Units:
+## GenBank Unit Accession	RefSeq Unit Accession	Assembly-Unit name
+## GCA_031545274.1		Primary Assembly
+#
+# Ordered by chromosome/plasmid; the chromosomes/plasmids are followed by
+# unlocalized scaffolds.
+# Unplaced scaffolds are listed at the end.
+# RefSeq is equal or derived from GenBank object.
+#
+# Sequence-Name	Sequence-Role	Assigned-Molecule	Assigned-Molecule-Location/Type	GenBank-Accn	Relationship	RefSeq-Accn	Assembly-Unit	Sequence-Length	UCSC-style-name
+L; large	assembled-molecule	L	Segment	GU140096.1	<>	na	Primary Assembly	6533	na
+M; medium	assembled-molecule	M	Segment	GU140097.1	<>	na	Primary Assembly	3615	na
+S; small	assembled-molecule	S	Segment	GU140098.1	<>	na	Primary Assembly	1699	na

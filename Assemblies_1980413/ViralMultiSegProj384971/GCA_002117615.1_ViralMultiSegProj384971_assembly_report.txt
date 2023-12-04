@@ -1,0 +1,29 @@
+# Assembly name:  ViralMultiSegProj384971
+# Organism name:  Jeju virus (viruses)
+# Infraspecific name:  strain=10-11
+# Taxid:          990280
+# BioProject:     PRJNA485481
+# Submitter:      na
+# Date:           2017-05-01
+# Assembly type:  na
+# Release type:   major
+# Assembly level: Complete Genome
+# Genome representation: full
+# Relation to type material: ICTV species exemplar
+# GenBank assembly accession: GCA_002117615.1
+# RefSeq assembly accession: GCF_002117615.1
+# RefSeq assembly and GenBank assemblies identical: yes
+#
+## Assembly-Units:
+## GenBank Unit Accession	RefSeq Unit Accession	Assembly-Unit name
+## GCA_002117605.1	GCF_002117605.1	Primary Assembly
+#
+# Ordered by chromosome/plasmid; the chromosomes/plasmids are followed by
+# unlocalized scaffolds.
+# Unplaced scaffolds are listed at the end.
+# RefSeq is equal or derived from GenBank object.
+#
+# Sequence-Name	Sequence-Role	Assigned-Molecule	Assigned-Molecule-Location/Type	GenBank-Accn	Relationship	RefSeq-Accn	Assembly-Unit	Sequence-Length	UCSC-style-name
+L	assembled-molecule	L	Segment	HQ834697.1	=	NC_034399.1	Primary Assembly	6588	na
+M	assembled-molecule	M	Segment	HQ834696.1	=	NC_034404.1	Primary Assembly	3570	na
+S	assembled-molecule	S	Segment	HQ834695.1	=	NC_034398.1	Primary Assembly	1754	na

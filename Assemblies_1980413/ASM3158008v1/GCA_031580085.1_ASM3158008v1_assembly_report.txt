@@ -1,0 +1,24 @@
+# Assembly name:  ASM3158008v1
+# Organism name:  Saaremaa hantavirus (viruses)
+# Infraspecific name:  strain=Saaremaa-160v
+# Taxid:          159479
+# Submitter:      na
+# Date:           2003-04-04
+# Assembly type:  na
+# Release type:   major
+# Assembly level: Complete Genome
+# Genome representation: full
+# Relation to type material: ICTV additional isolate
+# GenBank assembly accession: GCA_031580085.1
+#
+## Assembly-Units:
+## GenBank Unit Accession	RefSeq Unit Accession	Assembly-Unit name
+## GCA_031580084.1		Primary Assembly
+#
+# Ordered by chromosome/plasmid; the chromosomes/plasmids are followed by
+# unlocalized scaffolds.
+# Unplaced scaffolds are listed at the end.
+# RefSeq is equal or derived from GenBank object.
+#
+# Sequence-Name	Sequence-Role	Assigned-Molecule	Assigned-Molecule-Location/Type	GenBank-Accn	Relationship	RefSeq-Accn	Assembly-Unit	Sequence-Length	UCSC-style-name
+L	assembled-molecule	na	Segment	AJ410618.2	<>	na	Primary Assembly	6532	na

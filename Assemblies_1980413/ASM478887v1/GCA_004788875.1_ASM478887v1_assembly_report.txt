@@ -1,0 +1,30 @@
+# Assembly name:  ASM478887v1
+# Organism name:  Hainan oriental leaf-toed gecko hantavirus (viruses)
+# Infraspecific name:  strain=LPXYF84819
+# Taxid:          2116437
+# BioProject:     PRJNA485481
+# Submitter:      na
+# Date:           2021-06-01
+# Assembly type:  na
+# Release type:   major
+# Assembly level: Complete Genome
+# Genome representation: full
+# Assembly method: Trinity v. 2.1.1
+# Sequencing technology: Sanger dideoxy sequencing; Illumina
+# Relation to type material: ICTV species exemplar
+# Excluded from RefSeq: partial
+# GenBank assembly accession: GCA_004788875.1
+# RefSeq assembly accession: GCF_004788875.1
+# RefSeq assembly and GenBank assemblies identical: yes
+#
+## Assembly-Units:
+## GenBank Unit Accession	RefSeq Unit Accession	Assembly-Unit name
+## GCA_004788885.1	GCF_004788885.1	Primary Assembly
+#
+# Ordered by chromosome/plasmid; the chromosomes/plasmids are followed by
+# unlocalized scaffolds.
+# Unplaced scaffolds are listed at the end.
+# RefSeq is equal or derived from GenBank object.
+#
+# Sequence-Name	Sequence-Role	Assigned-Molecule	Assigned-Molecule-Location/Type	GenBank-Accn	Relationship	RefSeq-Accn	Assembly-Unit	Sequence-Length	UCSC-style-name
+L	assembled-molecule	na	Segment	MG599940.1	=	NC_055170.1	Primary Assembly	6627	na

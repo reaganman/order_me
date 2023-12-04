@@ -1,0 +1,26 @@
+# Assembly name:  ASM3158046v1
+# Organism name:  Castelo dos Sonhos virus (viruses)
+# Isolate:  769
+# Taxid:          139033
+# Submitter:      na
+# Date:           2014-03-11
+# Assembly type:  na
+# Release type:   major
+# Assembly level: Complete Genome
+# Genome representation: full
+# Relation to type material: ICTV additional isolate
+# GenBank assembly accession: GCA_031580465.1
+#
+## Assembly-Units:
+## GenBank Unit Accession	RefSeq Unit Accession	Assembly-Unit name
+## GCA_031580464.1		Primary Assembly
+#
+# Ordered by chromosome/plasmid; the chromosomes/plasmids are followed by
+# unlocalized scaffolds.
+# Unplaced scaffolds are listed at the end.
+# RefSeq is equal or derived from GenBank object.
+#
+# Sequence-Name	Sequence-Role	Assigned-Molecule	Assigned-Molecule-Location/Type	GenBank-Accn	Relationship	RefSeq-Accn	Assembly-Unit	Sequence-Length	UCSC-style-name
+L	assembled-molecule	L	Segment	KF581136.1	<>	na	Primary Assembly	572	na
+M	assembled-molecule	M	Segment	KF581135.1	<>	na	Primary Assembly	1673	na
+S	assembled-molecule	S	Segment	KF581134.1	<>	na	Primary Assembly	1068	na

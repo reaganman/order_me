@@ -1,0 +1,31 @@
+# Assembly name:  ASM281593v1
+# Organism name:  Orthohantavirus asikkalaense (viruses)
+# Infraspecific name:  strain=CZ/Beskydy/412/2010/Sm
+# Taxid:          1980458
+# BioProject:     PRJNA485481
+# Submitter:      na
+# Date:           2019-06-28
+# Assembly type:  na
+# Release type:   major
+# Assembly level: Complete Genome
+# Genome representation: full
+# Assembly method: Seqman v. 7.1.0
+# Sequencing technology: Sanger dideoxy sequencing
+# Relation to type material: ICTV species exemplar
+# GenBank assembly accession: GCA_002815935.1
+# RefSeq assembly accession: GCF_002815935.1
+# RefSeq assembly and GenBank assemblies identical: yes
+#
+## Assembly-Units:
+## GenBank Unit Accession	RefSeq Unit Accession	Assembly-Unit name
+## GCA_002815945.1	GCF_002815945.1	Primary Assembly
+#
+# Ordered by chromosome/plasmid; the chromosomes/plasmids are followed by
+# unlocalized scaffolds.
+# Unplaced scaffolds are listed at the end.
+# RefSeq is equal or derived from GenBank object.
+#
+# Sequence-Name	Sequence-Role	Assigned-Molecule	Assigned-Molecule-Location/Type	GenBank-Accn	Relationship	RefSeq-Accn	Assembly-Unit	Sequence-Length	UCSC-style-name
+L	assembled-molecule	L	Segment	KC880347.1	=	NC_043068.1	Primary Assembly	1458	na
+M	assembled-molecule	M	Segment	KC880344.1	=	NC_043069.1	Primary Assembly	3628	na
+S	assembled-molecule	S	Segment	KC880341.1	=	NC_043070.1	Primary Assembly	1526	na

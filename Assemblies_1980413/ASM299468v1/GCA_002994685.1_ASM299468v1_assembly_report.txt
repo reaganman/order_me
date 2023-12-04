@@ -1,0 +1,29 @@
+# Assembly name:  ASM299468v1
+# Organism name:  Orthohantavirus prospectense (viruses)
+# Infraspecific name:  strain=PH-1
+# Taxid:          3052492
+# BioProject:     PRJNA485481
+# Submitter:      na
+# Date:           2018-08-24
+# Assembly type:  na
+# Release type:   major
+# Assembly level: Complete Genome
+# Genome representation: full
+# Relation to type material: ICTV species exemplar
+# GenBank assembly accession: GCA_002994685.1
+# RefSeq assembly accession: GCF_002994685.1
+# RefSeq assembly and GenBank assemblies identical: yes
+#
+## Assembly-Units:
+## GenBank Unit Accession	RefSeq Unit Accession	Assembly-Unit name
+## GCA_002994684.1	GCF_002994684.1	Primary Assembly
+#
+# Ordered by chromosome/plasmid; the chromosomes/plasmids are followed by
+# unlocalized scaffolds.
+# Unplaced scaffolds are listed at the end.
+# RefSeq is equal or derived from GenBank object.
+#
+# Sequence-Name	Sequence-Role	Assigned-Molecule	Assigned-Molecule-Location/Type	GenBank-Accn	Relationship	RefSeq-Accn	Assembly-Unit	Sequence-Length	UCSC-style-name
+L	assembled-molecule	L	Segment	EF646763.1	=	NC_038939.1	Primary Assembly	6559	na
+M	assembled-molecule	M	Segment	X55129.1	=	NC_038940.1	Primary Assembly	3707	na
+S	assembled-molecule	S	Segment	Z49098.1	=	NC_038938.1	Primary Assembly	1675	na

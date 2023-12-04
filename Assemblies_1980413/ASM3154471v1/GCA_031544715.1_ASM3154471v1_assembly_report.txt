@@ -1,0 +1,27 @@
+# Assembly name:  ASM3154471v1
+# Organism name:  Monongahela hantavirus (viruses)
+# Isolate:  USA_PA_1997
+# Taxid:          2259728
+# Submitter:      na
+# Date:           2018-07-06
+# Assembly type:  na
+# Release type:   major
+# Assembly level: Complete Genome
+# Genome representation: full
+# Assembly method: CLC Genomics Workbench v. 9.1
+# Sequencing technology: Sanger dideoxy sequencing; Illumina
+# GenBank assembly accession: GCA_031544715.1
+#
+## Assembly-Units:
+## GenBank Unit Accession	RefSeq Unit Accession	Assembly-Unit name
+## GCA_031544714.1		Primary Assembly
+#
+# Ordered by chromosome/plasmid; the chromosomes/plasmids are followed by
+# unlocalized scaffolds.
+# Unplaced scaffolds are listed at the end.
+# RefSeq is equal or derived from GenBank object.
+#
+# Sequence-Name	Sequence-Role	Assigned-Molecule	Assigned-Molecule-Location/Type	GenBank-Accn	Relationship	RefSeq-Accn	Assembly-Unit	Sequence-Length	UCSC-style-name
+L	assembled-molecule	L	Segment	MH539865.1	<>	na	Primary Assembly	6562	na
+M	assembled-molecule	M	Segment	MH539866.1	<>	na	Primary Assembly	3671	na
+S	assembled-molecule	S	Segment	MH539867.1	<>	na	Primary Assembly	2081	na

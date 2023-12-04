@@ -1,0 +1,30 @@
+# Assembly name:  ASM1859643v1
+# Organism name:  Lena virus (viruses)
+# Infraspecific name:  strain=Khekhtsir-Sc67/Russia/2008
+# Taxid:          2847821
+# BioProject:     PRJNA485481
+# Submitter:      na
+# Date:           2023-05-06
+# Assembly type:  na
+# Release type:   major
+# Assembly level: Complete Genome
+# Genome representation: full
+# Sequencing technology: Sanger dideoxy sequencing
+# Relation to type material: ICTV species exemplar
+# GenBank assembly accession: GCA_018596435.1
+# RefSeq assembly accession: GCF_018596435.1
+# RefSeq assembly and GenBank assemblies identical: yes
+#
+## Assembly-Units:
+## GenBank Unit Accession	RefSeq Unit Accession	Assembly-Unit name
+## GCA_018596434.1	GCF_018596434.1	Primary Assembly
+#
+# Ordered by chromosome/plasmid; the chromosomes/plasmids are followed by
+# unlocalized scaffolds.
+# Unplaced scaffolds are listed at the end.
+# RefSeq is equal or derived from GenBank object.
+#
+# Sequence-Name	Sequence-Role	Assigned-Molecule	Assigned-Molecule-Location/Type	GenBank-Accn	Relationship	RefSeq-Accn	Assembly-Unit	Sequence-Length	UCSC-style-name
+L	assembled-molecule	L	Segment	MH499472.1	=	NC_078485.1	Primary Assembly	6533	na
+M	assembled-molecule	M	Segment	MH499471.2	=	NC_078484.1	Primary Assembly	3606	na
+S	assembled-molecule	S	Segment	MH499470.1	=	NC_078483.1	Primary Assembly	1788	na

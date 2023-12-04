@@ -1,0 +1,25 @@
+# Assembly name:  ASM3154503v1
+# Organism name:  Hantaanvirus CGHu1 (viruses)
+# Infraspecific name:  strain=CGHu1
+# Taxid:          470918
+# Submitter:      na
+# Date:           2007-10-04
+# Assembly type:  na
+# Release type:   major
+# Assembly level: Complete Genome
+# Genome representation: full
+# GenBank assembly accession: GCA_031545035.1
+#
+## Assembly-Units:
+## GenBank Unit Accession	RefSeq Unit Accession	Assembly-Unit name
+## GCA_031545034.1		Primary Assembly
+#
+# Ordered by chromosome/plasmid; the chromosomes/plasmids are followed by
+# unlocalized scaffolds.
+# Unplaced scaffolds are listed at the end.
+# RefSeq is equal or derived from GenBank object.
+#
+# Sequence-Name	Sequence-Role	Assigned-Molecule	Assigned-Molecule-Location/Type	GenBank-Accn	Relationship	RefSeq-Accn	Assembly-Unit	Sequence-Length	UCSC-style-name
+L	assembled-molecule	L	Segment	EU092226.1	<>	na	Primary Assembly	348	na
+M	assembled-molecule	M	Segment	EU092222.1	<>	na	Primary Assembly	3616	na
+S	assembled-molecule	S	Segment	EU092218.1	<>	na	Primary Assembly	1681	na

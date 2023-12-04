@@ -1,0 +1,29 @@
+# Assembly name:  ViralMultiSegProj15027
+# Organism name:  Orthohantavirus seoulense (viruses)
+# Infraspecific name:  strain=80-39
+# Taxid:          3052498
+# BioProject:     PRJNA485481
+# Submitter:      na
+# Date:           2003-11-25
+# Assembly type:  na
+# Release type:   major
+# Assembly level: Complete Genome
+# Genome representation: full
+# Relation to type material: ICTV species exemplar
+# GenBank assembly accession: GCA_000855645.1
+# RefSeq assembly accession: GCF_000855645.1
+# RefSeq assembly and GenBank assemblies identical: yes
+#
+## Assembly-Units:
+## GenBank Unit Accession	RefSeq Unit Accession	Assembly-Unit name
+## GCA_000855635.1	GCF_000855635.1	Primary Assembly
+#
+# Ordered by chromosome/plasmid; the chromosomes/plasmids are followed by
+# unlocalized scaffolds.
+# Unplaced scaffolds are listed at the end.
+# RefSeq is equal or derived from GenBank object.
+#
+# Sequence-Name	Sequence-Role	Assigned-Molecule	Assigned-Molecule-Location/Type	GenBank-Accn	Relationship	RefSeq-Accn	Assembly-Unit	Sequence-Length	UCSC-style-name
+L	assembled-molecule	L	Segment	X56492.1	=	NC_005238.1	Primary Assembly	6530	na
+M	assembled-molecule	M	Segment	S47716.1	=	NC_005237.1	Primary Assembly	3651	na
+S	assembled-molecule	S	Segment	AY273791.1	=	NC_005236.1	Primary Assembly	1769	na

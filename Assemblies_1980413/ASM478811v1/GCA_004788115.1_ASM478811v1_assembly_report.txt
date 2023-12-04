@@ -1,0 +1,29 @@
+# Assembly name:  ASM478811v1
+# Organism name:  Seewis virus (viruses)
+# Isolate:  EWS25
+# Taxid:          450605
+# BioProject:     PRJNA485481
+# Submitter:      na
+# Date:           2019-06-28
+# Assembly type:  na
+# Release type:   major
+# Assembly level: Chromosome
+# Genome representation: partial
+# Sequencing technology: Sanger dideoxy sequencing
+# Relation to type material: ICTV species exemplar
+# Excluded from RefSeq: partial
+# GenBank assembly accession: GCA_004788115.1
+# RefSeq assembly accession: GCF_004788115.1
+# RefSeq assembly and GenBank assemblies identical: yes
+#
+## Assembly-Units:
+## GenBank Unit Accession	RefSeq Unit Accession	Assembly-Unit name
+## GCA_004788125.1	GCF_004788125.1	Primary Assembly
+#
+# Ordered by chromosome/plasmid; the chromosomes/plasmids are followed by
+# unlocalized scaffolds.
+# Unplaced scaffolds are listed at the end.
+# RefSeq is equal or derived from GenBank object.
+#
+# Sequence-Name	Sequence-Role	Assigned-Molecule	Assigned-Molecule-Location/Type	GenBank-Accn	Relationship	RefSeq-Accn	Assembly-Unit	Sequence-Length	UCSC-style-name
+S	assembled-molecule	na	Segment	KY651020.1	=	NC_043527.1	Primary Assembly	1641	na

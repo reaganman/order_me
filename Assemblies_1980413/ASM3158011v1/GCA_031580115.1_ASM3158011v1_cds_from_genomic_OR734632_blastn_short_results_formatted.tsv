@@ -1,0 +1,2 @@
+stitle	evalue	pident	sstart	send	qseqid	qstart	qend	qseq	sseq
+lcl|AY675349.1_cds_AAT78474.1_3 [protein=nucleocapsid protein] [protein_id=AAT78474.1] [location=36..1325] [gbkey=CDS]	2.58e-09	88.889	78	122	OR734632.1	12	56	GGATGCAGAAAAGCAGTATGAGAAGGATCCTGATGACTTAAACAA	GGATGCAGAAAGGCAATATGAGAAGGATCCAGATGAGTTGAACAA

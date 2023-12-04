@@ -6,8 +6,8 @@
 #
 
 # Load environment
-conda env create -f env.yml
-conda activate order_me_environment
+#conda env create -f env.yml
+#conda activate order_me_environment
 
 # Set default values
 query=''
@@ -102,7 +102,5 @@ results_dir="order_me_results"
 if [[ ! -d "$results_dir" ]]; then 
     mkdir "$results_dir"
 fi
-mv *results* $results_dir/
+mv *results* $results_dir/ 2> /dev/nul
 
-echo "Alignment created: $results_dir/$final_aligned_results"
-echo "Check alignment then generate a consensus tree with: bash make_tree.sh $results_dir/$final_aligned_results"

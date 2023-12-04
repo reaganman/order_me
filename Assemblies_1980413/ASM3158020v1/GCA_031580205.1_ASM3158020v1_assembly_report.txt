@@ -1,0 +1,26 @@
+# Assembly name:  ASM3158020v1
+# Organism name:  Serang virus (viruses)
+# Infraspecific name:  strain=Serang/Rt60/2000
+# Taxid:          528322
+# Submitter:      na
+# Date:           2012-06-29
+# Assembly type:  na
+# Release type:   major
+# Assembly level: Complete Genome
+# Genome representation: full
+# Relation to type material: ICTV additional isolate
+# GenBank assembly accession: GCA_031580205.1
+#
+## Assembly-Units:
+## GenBank Unit Accession	RefSeq Unit Accession	Assembly-Unit name
+## GCA_031580204.1		Primary Assembly
+#
+# Ordered by chromosome/plasmid; the chromosomes/plasmids are followed by
+# unlocalized scaffolds.
+# Unplaced scaffolds are listed at the end.
+# RefSeq is equal or derived from GenBank object.
+#
+# Sequence-Name	Sequence-Role	Assigned-Molecule	Assigned-Molecule-Location/Type	GenBank-Accn	Relationship	RefSeq-Accn	Assembly-Unit	Sequence-Length	UCSC-style-name
+L	assembled-molecule	L	Segment	AM998806.1	<>	na	Primary Assembly	412	na
+M	assembled-molecule	M	Segment	AM998807.1	<>	na	Primary Assembly	343	na
+S	assembled-molecule	S	Segment	AM998808.2	<>	na	Primary Assembly	1567	na

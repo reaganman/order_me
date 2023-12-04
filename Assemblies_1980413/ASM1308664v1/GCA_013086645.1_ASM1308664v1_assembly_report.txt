@@ -1,0 +1,31 @@
+# Assembly name:  ASM1308664v1
+# Organism name:  Brno virus (viruses)
+# Infraspecific name:  strain=7/2012/CZE
+# Taxid:          1744961
+# BioProject:     PRJNA485481
+# Submitter:      na
+# Date:           2021-06-01
+# Assembly type:  na
+# Release type:   major
+# Assembly level: Complete Genome
+# Genome representation: full
+# Assembly method: RIEMS software v. 2015
+# Sequencing technology: IonTorrent; Sanger dideoxy sequencing
+# Relation to type material: ICTV species exemplar
+# GenBank assembly accession: GCA_013086645.1
+# RefSeq assembly accession: GCF_013086645.1
+# RefSeq assembly and GenBank assemblies identical: yes
+#
+## Assembly-Units:
+## GenBank Unit Accession	RefSeq Unit Accession	Assembly-Unit name
+## GCA_013086644.1	GCF_013086644.1	Primary Assembly
+#
+# Ordered by chromosome/plasmid; the chromosomes/plasmids are followed by
+# unlocalized scaffolds.
+# Unplaced scaffolds are listed at the end.
+# RefSeq is equal or derived from GenBank object.
+#
+# Sequence-Name	Sequence-Role	Assigned-Molecule	Assigned-Molecule-Location/Type	GenBank-Accn	Relationship	RefSeq-Accn	Assembly-Unit	Sequence-Length	UCSC-style-name
+segment_Unknown_3	assembled-molecule	L	Segment	KX845680.1	=	NC_055376.1	Primary Assembly	6432	na
+segment_Unknown_2	assembled-molecule	M	Segment	KX845679.1	=	NC_055377.1	Primary Assembly	3408	na
+segment_Unknown_1	assembled-molecule	S	Segment	KX845678.1	=	NC_055375.1	Primary Assembly	1269	na
