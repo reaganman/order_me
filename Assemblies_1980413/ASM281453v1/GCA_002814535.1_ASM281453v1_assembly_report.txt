@@ -1,0 +1,27 @@
+# Assembly name:  ASM281453v1
+# Organism name:  Amga virus (viruses)
+# Infraspecific name:  strain=AH301
+# Taxid:          1511732
+# Submitter:      na
+# Date:           2014-06-19
+# Assembly type:  na
+# Release type:   major
+# Assembly level: Chromosome
+# Genome representation: partial
+# Assembly method: AGTC v. 7
+# Sequencing technology: Sanger dideoxy sequencing
+# Excluded from RefSeq: partial
+# GenBank assembly accession: GCA_002814535.1
+#
+## Assembly-Units:
+## GenBank Unit Accession	RefSeq Unit Accession	Assembly-Unit name
+## GCA_002814545.1		Primary Assembly
+#
+# Ordered by chromosome/plasmid; the chromosomes/plasmids are followed by
+# unlocalized scaffolds.
+# Unplaced scaffolds are listed at the end.
+# RefSeq is equal or derived from GenBank object.
+#
+# Sequence-Name	Sequence-Role	Assigned-Molecule	Assigned-Molecule-Location/Type	GenBank-Accn	Relationship	RefSeq-Accn	Assembly-Unit	Sequence-Length	UCSC-style-name
+M	assembled-molecule	M	Segment	KF974359.1	<>	na	Primary Assembly	3627	na
+S	assembled-molecule	S	Segment	KF974360.1	<>	na	Primary Assembly	1640	na

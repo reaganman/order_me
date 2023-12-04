@@ -1,0 +1,27 @@
+# Assembly name:  ASM3154557v1
+# Organism name:  Longquan Niviventer niviventer orthohantavirus 1 (viruses)
+# Isolate:  LQS_she
+# Taxid:          2877488
+# Submitter:      na
+# Date:           2021-09-21
+# Assembly type:  na
+# Release type:   major
+# Assembly level: Complete Genome
+# Genome representation: full
+# Assembly method: Trinity program v. 2.1; Seqman v. 7.0
+# Sequencing technology: Illumina; Sanger dideoxy sequencing
+# GenBank assembly accession: GCA_031545575.1
+#
+## Assembly-Units:
+## GenBank Unit Accession	RefSeq Unit Accession	Assembly-Unit name
+## GCA_031545574.1		Primary Assembly
+#
+# Ordered by chromosome/plasmid; the chromosomes/plasmids are followed by
+# unlocalized scaffolds.
+# Unplaced scaffolds are listed at the end.
+# RefSeq is equal or derived from GenBank object.
+#
+# Sequence-Name	Sequence-Role	Assigned-Molecule	Assigned-Molecule-Location/Type	GenBank-Accn	Relationship	RefSeq-Accn	Assembly-Unit	Sequence-Length	UCSC-style-name
+L	assembled-molecule	L	Segment	MZ328266.1	<>	na	Primary Assembly	6513	na
+M	assembled-molecule	M	Segment	MZ328267.1	<>	na	Primary Assembly	3678	na
+S	assembled-molecule	S	Segment	MZ328268.1	<>	na	Primary Assembly	1702	na

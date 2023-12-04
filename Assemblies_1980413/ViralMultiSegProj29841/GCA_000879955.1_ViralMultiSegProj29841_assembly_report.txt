@@ -1,0 +1,29 @@
+# Assembly name:  ViralMultiSegProj29841
+# Organism name:  Thottopalayam virus (viruses)
+# Infraspecific name:  strain=VRC 66412
+# Taxid:          1980493
+# BioProject:     PRJNA485481
+# Submitter:      na
+# Date:           2008-05-20
+# Assembly type:  na
+# Release type:   major
+# Assembly level: Complete Genome
+# Genome representation: full
+# Relation to type material: ICTV species exemplar
+# GenBank assembly accession: GCA_000879955.1
+# RefSeq assembly accession: GCF_000879955.1
+# RefSeq assembly and GenBank assemblies identical: yes
+#
+## Assembly-Units:
+## GenBank Unit Accession	RefSeq Unit Accession	Assembly-Unit name
+## GCA_000879945.1	GCF_000879945.1	Primary Assembly
+#
+# Ordered by chromosome/plasmid; the chromosomes/plasmids are followed by
+# unlocalized scaffolds.
+# Unplaced scaffolds are listed at the end.
+# RefSeq is equal or derived from GenBank object.
+#
+# Sequence-Name	Sequence-Role	Assigned-Molecule	Assigned-Molecule-Location/Type	GenBank-Accn	Relationship	RefSeq-Accn	Assembly-Unit	Sequence-Length	UCSC-style-name
+L	assembled-molecule	L	Segment	DQ825770.1	=	NC_010707.1	Primary Assembly	6581	na
+M	assembled-molecule	M	Segment	DQ825771.1	=	NC_010708.1	Primary Assembly	3621	na
+S	assembled-molecule	S	Segment	AY526097.1	=	NC_010704.1	Primary Assembly	1530	na

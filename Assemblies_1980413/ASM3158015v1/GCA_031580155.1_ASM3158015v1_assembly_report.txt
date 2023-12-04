@@ -1,0 +1,27 @@
+# Assembly name:  ASM3158015v1
+# Organism name:  Maripa hantavirus (viruses)
+# Isolate:  BOR
+# Taxid:          654422
+# Submitter:      na
+# Date:           2012-04-17
+# Assembly type:  na
+# Release type:   major
+# Assembly level: Complete Genome
+# Genome representation: full
+# Sequencing technology: Sanger dideoxy sequencing
+# Relation to type material: ICTV additional isolate
+# GenBank assembly accession: GCA_031580155.1
+#
+## Assembly-Units:
+## GenBank Unit Accession	RefSeq Unit Accession	Assembly-Unit name
+## GCA_031580154.1		Primary Assembly
+#
+# Ordered by chromosome/plasmid; the chromosomes/plasmids are followed by
+# unlocalized scaffolds.
+# Unplaced scaffolds are listed at the end.
+# RefSeq is equal or derived from GenBank object.
+#
+# Sequence-Name	Sequence-Role	Assigned-Molecule	Assigned-Molecule-Location/Type	GenBank-Accn	Relationship	RefSeq-Accn	Assembly-Unit	Sequence-Length	UCSC-style-name
+L	assembled-molecule	L	Segment	JQ611713.1	<>	na	Primary Assembly	6562	na
+M	assembled-molecule	M	Segment	JQ611714.1	<>	na	Primary Assembly	3684	na
+S	assembled-molecule	S	Segment	JQ611712.1	<>	na	Primary Assembly	1946	na

@@ -1,0 +1,27 @@
+# Assembly name:  ASM3154502v1
+# Organism name:  Dakrong virus (viruses)
+# Isolate:  VN2913B72
+# Taxid:          2304450
+# Submitter:      na
+# Date:           2018-08-24
+# Assembly type:  na
+# Release type:   major
+# Assembly level: Complete Genome
+# Genome representation: full
+# Assembly method: bundled with Genetyx v. 13
+# Sequencing technology: Sanger dideoxy sequencing
+# GenBank assembly accession: GCA_031545025.1
+#
+## Assembly-Units:
+## GenBank Unit Accession	RefSeq Unit Accession	Assembly-Unit name
+## GCA_031545024.1		Primary Assembly
+#
+# Ordered by chromosome/plasmid; the chromosomes/plasmids are followed by
+# unlocalized scaffolds.
+# Unplaced scaffolds are listed at the end.
+# RefSeq is equal or derived from GenBank object.
+#
+# Sequence-Name	Sequence-Role	Assigned-Molecule	Assigned-Molecule-Location/Type	GenBank-Accn	Relationship	RefSeq-Accn	Assembly-Unit	Sequence-Length	UCSC-style-name
+L	assembled-molecule	L	Segment	MG663536.1	<>	na	Primary Assembly	6535	na
+M	assembled-molecule	M	Segment	MG663535.1	<>	na	Primary Assembly	3622	na
+S	assembled-molecule	S	Segment	MG663534.1	<>	na	Primary Assembly	1746	na

@@ -1,0 +1,31 @@
+# Assembly name:  ASM292557v1
+# Organism name:  Necocli virus (viruses)
+# Infraspecific name:  strain=HV O0020002
+# Taxid:          1145238
+# BioProject:     PRJNA485481
+# Submitter:      na
+# Date:           2019-06-28
+# Assembly type:  na
+# Release type:   major
+# Assembly level: Chromosome
+# Genome representation: partial
+# Sequencing technology: Sanger dideoxy sequencing
+# Relation to type material: ICTV species exemplar
+# Excluded from RefSeq: partial
+# GenBank assembly accession: GCA_002925575.1
+# RefSeq assembly accession: GCF_002925575.1
+# RefSeq assembly and GenBank assemblies identical: yes
+#
+## Assembly-Units:
+## GenBank Unit Accession	RefSeq Unit Accession	Assembly-Unit name
+## GCA_002925574.1	GCF_002925574.1	Primary Assembly
+#
+# Ordered by chromosome/plasmid; the chromosomes/plasmids are followed by
+# unlocalized scaffolds.
+# Unplaced scaffolds are listed at the end.
+# RefSeq is equal or derived from GenBank object.
+#
+# Sequence-Name	Sequence-Role	Assigned-Molecule	Assigned-Molecule-Location/Type	GenBank-Accn	Relationship	RefSeq-Accn	Assembly-Unit	Sequence-Length	UCSC-style-name
+L	assembled-molecule	L	Segment	KF735065.1	=	NC_043407.1	Primary Assembly	403	na
+M	assembled-molecule	M	Segment	KF494345.1	=	NC_043408.1	Primary Assembly	3637	na
+S	assembled-molecule	S	Segment	KF481954.1	=	NC_043409.1	Primary Assembly	1960	na

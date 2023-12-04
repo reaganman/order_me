@@ -1,0 +1,30 @@
+# Assembly name:  ViralMultiSegProj386301
+# Organism name:  Orthohantavirus khabarovskense (viruses)
+# Isolate:  Fuyuan-Mm-217
+# Taxid:          3052483
+# BioProject:     PRJNA485481
+# Submitter:      na
+# Date:           2017-05-15
+# Assembly type:  na
+# Release type:   major
+# Assembly level: Complete Genome
+# Genome representation: full
+# Sequencing technology: Sanger dideoxy sequencing
+# Relation to type material: ICTV species exemplar
+# GenBank assembly accession: GCA_002146125.1
+# RefSeq assembly accession: GCF_002146125.1
+# RefSeq assembly and GenBank assemblies identical: yes
+#
+## Assembly-Units:
+## GenBank Unit Accession	RefSeq Unit Accession	Assembly-Unit name
+## GCA_002146115.1	GCF_002146115.1	Primary Assembly
+#
+# Ordered by chromosome/plasmid; the chromosomes/plasmids are followed by
+# unlocalized scaffolds.
+# Unplaced scaffolds are listed at the end.
+# RefSeq is equal or derived from GenBank object.
+#
+# Sequence-Name	Sequence-Role	Assigned-Molecule	Assigned-Molecule-Location/Type	GenBank-Accn	Relationship	RefSeq-Accn	Assembly-Unit	Sequence-Length	UCSC-style-name
+L	assembled-molecule	L	Segment	KJ857321.1	=	NC_034519.1	Primary Assembly	6581	na
+M	assembled-molecule	M	Segment	KJ857338.1	=	NC_034518.1	Primary Assembly	3706	na
+S	assembled-molecule	S	Segment	KJ857342.1	=	NC_034527.1	Primary Assembly	1845	na

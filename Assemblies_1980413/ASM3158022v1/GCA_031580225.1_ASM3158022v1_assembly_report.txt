@@ -1,0 +1,28 @@
+# Assembly name:  ASM3158022v1
+# Organism name:  Adler hantavirus (viruses)
+# Infraspecific name:  strain=Mm/98-08
+# Taxid:          1578833
+# Submitter:      na
+# Date:           2014-12-03
+# Assembly type:  na
+# Release type:   major
+# Assembly level: Complete Genome
+# Genome representation: full
+# Assembly method: Geneious v. 1.7.1
+# Sequencing technology: Sanger dideoxy sequencing
+# Relation to type material: ICTV additional isolate
+# GenBank assembly accession: GCA_031580225.1
+#
+## Assembly-Units:
+## GenBank Unit Accession	RefSeq Unit Accession	Assembly-Unit name
+## GCA_031580224.1		Primary Assembly
+#
+# Ordered by chromosome/plasmid; the chromosomes/plasmids are followed by
+# unlocalized scaffolds.
+# Unplaced scaffolds are listed at the end.
+# RefSeq is equal or derived from GenBank object.
+#
+# Sequence-Name	Sequence-Role	Assigned-Molecule	Assigned-Molecule-Location/Type	GenBank-Accn	Relationship	RefSeq-Accn	Assembly-Unit	Sequence-Length	UCSC-style-name
+L	assembled-molecule	L	Segment	KP013556.1	<>	na	Primary Assembly	347	na
+M	assembled-molecule	M	Segment	KP013579.1	<>	na	Primary Assembly	3685	na
+S	assembled-molecule	S	Segment	KP013568.1	<>	na	Primary Assembly	1796	na

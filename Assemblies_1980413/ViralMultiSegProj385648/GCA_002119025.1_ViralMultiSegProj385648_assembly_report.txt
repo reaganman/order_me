@@ -1,0 +1,29 @@
+# Assembly name:  ViralMultiSegProj385648
+# Organism name:  Orthohantavirus caobangense (viruses)
+# Infraspecific name:  strain=3
+# Taxid:          3052473
+# BioProject:     PRJNA485481
+# Submitter:      na
+# Date:           2017-05-05
+# Assembly type:  na
+# Release type:   major
+# Assembly level: Complete Genome
+# Genome representation: full
+# Relation to type material: ICTV species exemplar
+# GenBank assembly accession: GCA_002119025.1
+# RefSeq assembly accession: GCF_002119025.1
+# RefSeq assembly and GenBank assemblies identical: yes
+#
+## Assembly-Units:
+## GenBank Unit Accession	RefSeq Unit Accession	Assembly-Unit name
+## GCA_002119015.1	GCF_002119015.1	Primary Assembly
+#
+# Ordered by chromosome/plasmid; the chromosomes/plasmids are followed by
+# unlocalized scaffolds.
+# Unplaced scaffolds are listed at the end.
+# RefSeq is equal or derived from GenBank object.
+#
+# Sequence-Name	Sequence-Role	Assigned-Molecule	Assigned-Molecule-Location/Type	GenBank-Accn	Relationship	RefSeq-Accn	Assembly-Unit	Sequence-Length	UCSC-style-name
+L	assembled-molecule	L	Segment	EF543525.2	=	NC_034485.1	Primary Assembly	6533	na
+M	assembled-molecule	M	Segment	EF543526.1	=	NC_034474.1	Primary Assembly	3637	na
+S	assembled-molecule	S	Segment	EF543524.1	=	NC_034484.1	Primary Assembly	1833	na

@@ -1,0 +1,29 @@
+# Assembly name:  ASM281555v1
+# Organism name:  Asama virus (viruses)
+# Infraspecific name:  strain=N10
+# Taxid:          564878
+# BioProject:     PRJNA485481
+# Submitter:      na
+# Date:           2018-08-24
+# Assembly type:  na
+# Release type:   major
+# Assembly level: Chromosome
+# Genome representation: partial
+# Relation to type material: ICTV species exemplar
+# Excluded from RefSeq: partial
+# GenBank assembly accession: GCA_002815555.1
+# RefSeq assembly accession: GCF_002815555.1
+# RefSeq assembly and GenBank assemblies identical: yes
+#
+## Assembly-Units:
+## GenBank Unit Accession	RefSeq Unit Accession	Assembly-Unit name
+## GCA_002815565.1	GCF_002815565.1	Primary Assembly
+#
+# Ordered by chromosome/plasmid; the chromosomes/plasmids are followed by
+# unlocalized scaffolds.
+# Unplaced scaffolds are listed at the end.
+# RefSeq is equal or derived from GenBank object.
+#
+# Sequence-Name	Sequence-Role	Assigned-Molecule	Assigned-Molecule-Location/Type	GenBank-Accn	Relationship	RefSeq-Accn	Assembly-Unit	Sequence-Length	UCSC-style-name
+M	assembled-molecule	M	Segment	EU929075.1	=	NC_038274.1	Primary Assembly	3604	na
+S	assembled-molecule	S	Segment	EU929072.1	=	NC_038273.1	Primary Assembly	1710	na

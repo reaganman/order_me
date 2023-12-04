@@ -1,0 +1,3 @@
+stitle	evalue	pident	sstart	send	qseqid	qstart	qend	qseq	sseq
+lcl|AJ410615.1_cds_CAC85163.1_3 [gene=S segment] [db_xref=GOA:Q805Q9,InterPro:IPR002214,UniProtKB/TrEMBL:Q805Q9] [protein=nucleocapsid protein] [protein_id=CAC85163.1] [location=36..1325] [gbkey=CDS]	1.72e-13	93.182	67	110	OR734632.1	1	44	CAGAAGGTCAAGGATGCAGAAAAGCAGTATGAGAAGGATCCTGA	CAGAAGGTGAAAGATGCAGAAAAGCAGTATGAAAAGGATCCTGA
+lcl|AJ410615.1_cds_CAC85163.1_3 [gene=S segment] [db_xref=GOA:Q805Q9,InterPro:IPR002214,UniProtKB/TrEMBL:Q805Q9] [protein=nucleocapsid protein] [protein_id=CAC85163.1] [location=36..1325] [gbkey=CDS]	1.02e-08	100.000	318	341	OR734632.1	252	275	TCTTGACATTGATGAACCTACAGG	TCTTGACATTGATGAACCTACAGG

@@ -77,7 +77,7 @@ done
 
 # Compile blast results
 results_compiled="${query}_aligned_${blast_type}_results.fasta"
-rm -f "$results_combined"  # Remove the combined file if it already exists
+rm -f "$results_compiled"  # Remove the combined file if it already exists
 
 for species in $Assemblies; do
     species_dir=$(basename "$species")

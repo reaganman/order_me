@@ -1,0 +1,26 @@
+# Assembly name:  ASM3154505v1
+# Organism name:  Artybash virus (viruses)
+# Isolate:  ART 502
+# Taxid:          517360
+# Submitter:      na
+# Date:           2020-10-06
+# Assembly type:  na
+# Release type:   major
+# Assembly level: Complete Genome
+# Genome representation: full
+# Sequencing technology: Sanger dideoxy sequencing
+# GenBank assembly accession: GCA_031545055.1
+#
+## Assembly-Units:
+## GenBank Unit Accession	RefSeq Unit Accession	Assembly-Unit name
+## GCA_031545054.1		Primary Assembly
+#
+# Ordered by chromosome/plasmid; the chromosomes/plasmids are followed by
+# unlocalized scaffolds.
+# Unplaced scaffolds are listed at the end.
+# RefSeq is equal or derived from GenBank object.
+#
+# Sequence-Name	Sequence-Role	Assigned-Molecule	Assigned-Molecule-Location/Type	GenBank-Accn	Relationship	RefSeq-Accn	Assembly-Unit	Sequence-Length	UCSC-style-name
+L	assembled-molecule	L	Segment	EU424339.1	<>	na	Primary Assembly	347	na
+M	assembled-molecule	M	Segment	EU424340.2	<>	na	Primary Assembly	1288	na
+S	assembled-molecule	S	Segment	MN815798.1	<>	na	Primary Assembly	1640	na

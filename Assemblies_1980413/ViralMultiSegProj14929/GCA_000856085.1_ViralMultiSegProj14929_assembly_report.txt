@@ -1,0 +1,31 @@
+# Assembly name:  ViralMultiSegProj14929
+# Organism name:  Orthohantavirus hantanense (viruses)
+# Infraspecific name:  strain=76-118
+# Taxid:          3052480
+# BioProject:     PRJNA485481
+# Submitter:      na
+# Date:           2003-11-18
+# Assembly type:  na
+# Release type:   major
+# Assembly level: Complete Genome
+# Genome representation: full
+# Relation to type material: ICTV species exemplar
+# GenBank assembly accession: GCA_000856085.1
+# RefSeq assembly accession: GCF_000856085.1
+# RefSeq assembly and GenBank assemblies identical: yes
+#
+## Assembly-Units:
+## GenBank Unit Accession	RefSeq Unit Accession	Assembly-Unit name
+## GCA_000856075.1	GCF_000856075.1	Primary Assembly
+#
+# Ordered by chromosome/plasmid; the chromosomes/plasmids are followed by
+# unlocalized scaffolds.
+# Unplaced scaffolds are listed at the end.
+# RefSeq is equal or derived from GenBank object.
+#
+# Sequence-Name	Sequence-Role	Assigned-Molecule	Assigned-Molecule-Location/Type	GenBank-Accn	Relationship	RefSeq-Accn	Assembly-Unit	Sequence-Length	UCSC-style-name
+L	assembled-molecule	L	Segment	X55901.1	=	NC_005222.1	Primary Assembly	6533	na
+segment_Unknown_2	assembled-molecule	M	Segment	na	<>	NC_005219.1	Primary Assembly	3616	na
+segment_Unknown_1	assembled-molecule	S	Segment	na	<>	NC_005218.1	Primary Assembly	1696	na
+M	assembled-molecule	M	Segment	M14627.1	<>	na	Primary Assembly	3616	na
+S	assembled-molecule	S	Segment	M14626.1	<>	na	Primary Assembly	1696	na

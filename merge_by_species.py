@@ -34,15 +34,17 @@ def consensus_by_species(input_file, output_file, query):
         seq_ids = []
         for record in record_list:
             record_id = record.id
-            print(f"record id: {record_id}")
             if record_id not in seq_ids:
                 seq_ids.append(record_id)
 
-        temp_input_file = f"temp_input_{species}.fasta"
-        SeqIO.write(record_list, temp_input_file, "fasta")
-        alignment = AlignIO.read(temp_input_file, "fasta")
-        summary_info = SummaryInfo(alignment)
-        consensus_sequence = summary_info.dumb_consensus(threshold=0.51)
+        temp_input_file = f"temp_input_{species.replace(' ', '_')}.fasta"
+        try:
+            SeqIO.write(record_list, temp_input_file, "fasta")
+            alignment = AlignIO.read(temp_input_file, "fasta")
+            summary_info = SummaryInfo(alignment)
+            consensus_sequence = summary_info.dumb_consensus(threshold=0.51)
+        except:
+            print(f"ERROR: GENERATING CONSNESUS SEQUENCE FOR: {species}")
         print(species)
         consensus_id = species + " " + " + ".join(seq_ids)
         consensus_description = "Hit for: " + query

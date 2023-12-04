@@ -1,0 +1,24 @@
+# Assembly name:  ASM3158021v1
+# Organism name:  Orthohantavirus thailandense (viruses)
+# Infraspecific name:  strain=Thai749
+# Taxid:          3052501
+# Submitter:      na
+# Date:           1993-07-26
+# Assembly type:  na
+# Release type:   major
+# Assembly level: Complete Genome
+# Genome representation: full
+# Relation to type material: ICTV additional isolate
+# GenBank assembly accession: GCA_031580215.1
+#
+## Assembly-Units:
+## GenBank Unit Accession	RefSeq Unit Accession	Assembly-Unit name
+## GCA_031580214.1		Primary Assembly
+#
+# Ordered by chromosome/plasmid; the chromosomes/plasmids are followed by
+# unlocalized scaffolds.
+# Unplaced scaffolds are listed at the end.
+# RefSeq is equal or derived from GenBank object.
+#
+# Sequence-Name	Sequence-Role	Assigned-Molecule	Assigned-Molecule-Location/Type	GenBank-Accn	Relationship	RefSeq-Accn	Assembly-Unit	Sequence-Length	UCSC-style-name
+L08756.1	assembled-molecule	na	Segment	L08756.1	<>	na	Primary Assembly	3613	na

@@ -1,0 +1,2 @@
+stitle	evalue	pident	sstart	send	qseqid	qstart	qend	qseq	sseq
+lcl|JF920150.1_cds_AES92929.1_3 [gene=S] [protein=nucleocapsid protein] [protein_id=AES92929.1] [location=36..1325] [gbkey=CDS]	7.04e-16	93.750	67	114	OR734632.1	1	48	CAGAAGGTCAAGGATGCAGAAAAGCAGTATGAGAAGGATCCTGATGAC	CAGAAGGTAAAGGATGCAGAGAAGCAGTATGAGAAGGACCCTGATGAC

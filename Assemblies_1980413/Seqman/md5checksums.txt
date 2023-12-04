@@ -1,0 +1,13 @@
+7ca7d5d18993831c814512883bfb5a73  ./annotation_hashes.txt
+9d434dd3d03ff50159813f174b7d8763  ./GCA_031580105.1_Seqman_assembly_report.txt
+2f9b81cbbfed4d574c9049911a3c433b  ./GCA_031580105.1_Seqman_assembly_stats.txt
+cd6a591b5efdc336b8653ddd9ee610f0  ./GCA_031580105.1_Seqman_cds_from_genomic.fna.gz
+a0b5fbb2c6c3349d888fdf9a8cb80bc9  ./GCA_031580105.1_Seqman_feature_count.txt.gz
+ca3250c5e39f4df44b5f7e8014a26d86  ./GCA_031580105.1_Seqman_feature_table.txt.gz
+6fa70802c3156897a4385c57dd335a88  ./GCA_031580105.1_Seqman_genomic.fna.gz
+a72bfcec145ce17fa88871f9aff589dc  ./GCA_031580105.1_Seqman_genomic.gbff.gz
+e01d43e9796ce676716ba7635bd6f139  ./GCA_031580105.1_Seqman_genomic.gff.gz
+6a6e5c1174088e6e85c6275d6f9cf1c8  ./GCA_031580105.1_Seqman_genomic.gtf.gz
+905e7bbd74c883d891e87a1334810f15  ./GCA_031580105.1_Seqman_protein.faa.gz
+4b29043c9e810b24859df3031e36d239  ./GCA_031580105.1_Seqman_protein.gpff.gz
+0616dac84a9a22d53a0ebfe6e3645184  ./GCA_031580105.1_Seqman_translated_cds.faa.gz

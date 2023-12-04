@@ -1,0 +1,26 @@
+# Assembly name:  ASM3154537v1
+# Organism name:  Academ virus (viruses)
+# Isolate:  Academ-Ta450/Russia/2017
+# Taxid:          2563836
+# Submitter:      na
+# Date:           2022-03-03
+# Assembly type:  na
+# Release type:   major
+# Assembly level: Complete Genome
+# Genome representation: full
+# Sequencing technology: Sanger dideoxy sequencing
+# GenBank assembly accession: GCA_031545375.1
+#
+## Assembly-Units:
+## GenBank Unit Accession	RefSeq Unit Accession	Assembly-Unit name
+## GCA_031545374.1		Primary Assembly
+#
+# Ordered by chromosome/plasmid; the chromosomes/plasmids are followed by
+# unlocalized scaffolds.
+# Unplaced scaffolds are listed at the end.
+# RefSeq is equal or derived from GenBank object.
+#
+# Sequence-Name	Sequence-Role	Assigned-Molecule	Assigned-Molecule-Location/Type	GenBank-Accn	Relationship	RefSeq-Accn	Assembly-Unit	Sequence-Length	UCSC-style-name
+L	assembled-molecule	L	Segment	MH784614.1	<>	na	Primary Assembly	347	na
+M	assembled-molecule	M	Segment	OL871119.1	<>	na	Primary Assembly	3648	na
+S	assembled-molecule	S	Segment	MK340905.1	<>	na	Primary Assembly	1791	na

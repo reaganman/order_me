@@ -1,0 +1,25 @@
+# Assembly name:  ASM3158047v1
+# Organism name:  Lechiguanas virus (viruses)
+# Infraspecific name:  strain=Of22819
+# Taxid:          69245
+# Submitter:      na
+# Date:           1997-12-01
+# Assembly type:  na
+# Release type:   major
+# Assembly level: Complete Genome
+# Genome representation: full
+# Relation to type material: ICTV additional isolate
+# GenBank assembly accession: GCA_031580475.1
+#
+## Assembly-Units:
+## GenBank Unit Accession	RefSeq Unit Accession	Assembly-Unit name
+## GCA_031580474.1		Primary Assembly
+#
+# Ordered by chromosome/plasmid; the chromosomes/plasmids are followed by
+# unlocalized scaffolds.
+# Unplaced scaffolds are listed at the end.
+# RefSeq is equal or derived from GenBank object.
+#
+# Sequence-Name	Sequence-Role	Assigned-Molecule	Assigned-Molecule-Location/Type	GenBank-Accn	Relationship	RefSeq-Accn	Assembly-Unit	Sequence-Length	UCSC-style-name
+M	assembled-molecule	M	Segment	AF028022.1	<>	na	Primary Assembly	3653	na
+S	assembled-molecule	S	Segment	AF482714.1	<>	na	Primary Assembly	1938	na

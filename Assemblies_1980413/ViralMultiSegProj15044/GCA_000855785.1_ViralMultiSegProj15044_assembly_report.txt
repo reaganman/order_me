@@ -1,0 +1,29 @@
+# Assembly name:  ViralMultiSegProj15044
+# Organism name:  Hantavirus Z10 (viruses)
+# Infraspecific name:  strain=Z10
+# Taxid:          93830
+# BioProject:     PRJNA485481
+# Submitter:      na
+# Date:           2004-11-13
+# Assembly type:  na
+# Release type:   major
+# Assembly level: Complete Genome
+# Genome representation: full
+# GenBank assembly accession: GCA_000855785.1
+# RefSeq assembly accession: GCF_000855785.1
+# RefSeq assembly and GenBank assemblies identical: yes
+#
+## Assembly-Units:
+## GenBank Unit Accession	RefSeq Unit Accession	Assembly-Unit name
+## GCA_000855775.1	GCF_000855775.1	Primary Assembly
+#
+# Ordered by chromosome/plasmid; the chromosomes/plasmids are followed by
+# unlocalized scaffolds.
+# Unplaced scaffolds are listed at the end.
+# RefSeq is equal or derived from GenBank object.
+#
+# Sequence-Name	Sequence-Role	Assigned-Molecule	Assigned-Molecule-Location/Type	GenBank-Accn	Relationship	RefSeq-Accn	Assembly-Unit	Sequence-Length	UCSC-style-name
+L	assembled-molecule	L	Segment	AF189155.1	=	NC_006435.1	Primary Assembly	6533	na
+M	assembled-molecule	M	Segment	AF276987.1	=	NC_006437.1	Primary Assembly	3616	na
+S	assembled-molecule	S	Segment	na	<>	NC_006433.1	Primary Assembly	1701	na
+S segment	assembled-molecule	S	Segment	AF184987.1	<>	na	Primary Assembly	1701	na
