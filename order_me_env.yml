@@ -1,4 +1,4 @@
-name: test_om_env
+name: order_me_environment
 channels:
   - conda-forge
   - bioconda
