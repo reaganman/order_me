@@ -6,6 +6,7 @@
 - [How to use](#how_to_use)
 - [Run with test data](#Run_with_test_data)
 - [Purpose and usage of individual scripts](#indv_scripts)
+- [Other scripts](#Other_scripts)
 ## Introduction
 
 `order_me` is a pipeline designed to track the evolution of a specific sequence of interest within a specified taxonomic group. It utilizes various scripts to download genomic data, perform sequence searches, and generate alignments for further analysis. 
@@ -168,3 +169,9 @@ Usage:
 ```bash
 python3 view_tree.py [treefile] [outfile]
 ```
+## Other scripts (not used in order_me pipeline)
+Other helpful scripts are included for dealing with fastas
+
+These scripts are not thourghly documented so use at your own risk
+
+
