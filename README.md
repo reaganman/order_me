@@ -5,7 +5,7 @@
 - [Dependencies](#dependencies)
 - [How to use](#how_to_use)
 - [Run with test data](#Run_with_test_data)
-
+- [Purpose and usage of individual scripts](#indv_scripts)
 ## Introduction
 
 `order_me` is a pipeline designed to track the evolution of a specific sequence of interest within a specified taxonomic group. It utilizes various scripts to download genomic data, perform sequence searches, and generate alignments for further analysis. 
@@ -138,7 +138,33 @@ python3 get_fasta_from_blast.py results_file [_blastn.tsv] header [must_match_ou
 For formatting example of blast results see `blast_em.sh` and 
 
 ### merge_by_species.py
+Generating a consensus sequence for each species in the input fasta
 
+Usage:
+```bash
+python3 merge_by_species.py [input_fasta] [output_fata] [queryID]
+```
 
+### merge_by_id.py 
+Generating a consensus sequence for each sequence accession ID in the input fasta
 
- 
+Usage:
+```bash
+python3 merge_by_id.py [input_fasta] [output_fata] [queryID]
+```
+
+### make_tree.sh
+Generating trees form alignment created by `order_me` pipeline
+
+Usage:
+```bash
+bash make_tree.sh [alignment_file.fasta]
+```
+
+### view_tree.py
+Creating png image from consensus tree
+
+Usage:
+```bash
+python3 view_tree.py [treefile] [outfile]
+```
