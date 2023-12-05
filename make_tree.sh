@@ -19,7 +19,7 @@ if [ ! -f "$alignment" ]; then
 fi
 
 # Load IQ-TREE module
-module load iqtree
+#module load iqtree
 
 # Build phylogenetic tree using IQ-TREE with 1000 bootstrap replicates
 iqtree2 -s "$alignment" -B 1000 -redo
