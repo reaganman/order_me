@@ -36,6 +36,7 @@ cd order_me
 ```
 ### 2. Get accession ID for sequence of interest
 Go to https://www.ncbi.nlm.nih.gov/nuccore and to find the accession ID for your sequence
+[Local Image](find_queryID.png)
 
 ### 3. Get taxid for taxonomic group to search
 Go to https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi and find the taxid associated with the group you want to search in
