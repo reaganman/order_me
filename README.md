@@ -92,8 +92,9 @@ To run the pipline with this data use:
 bash order_me.sh --query OR734632 --taxid 1980413 --email [your_email]
 ``` 
 This searches the taxonomic group Hantaviridae for sequences homologous to Orthohantavirus nucleocapsid protein gene
+
 Generated tree is included
-[Local Image](OR734632_in_1980413_blastn_short_tree.png)
+![Local Image](OR734632_in_1980413_blastn_short_tree.png)
 NOTE THE NAMING ISSUES THAT NEED TO BE FIXED/MERGED IN THE GENERATED FASTA
 
 ## Purpose and usage of individual scripts
