@@ -39,12 +39,14 @@ if [ ! -f "$contree_file" ]; then
     echo "Error: IQ-TREE failed to generate the contree file."
     exit 1
 fi
+tree_with_descriptions="${contree_file%.contree}_desc.contree"
+python3 get_tree_descriptions.py "$contree_file" "$alignment" "$tree_with_descriptions"
 
 # Display the names of the output files
 echo "Tree plot saved as: $out_file"
-echo "Contree file generated: $contree_file"
+echo "Contree file generated: $tree_with_descriptions"
 
-# Visualize the phylogenetic tree using a Python script (view_tree.py)
+# Visualize the phylogenetic tree
 python3 view_tree.py "$contree_file" "$out_file"
 
 # Check if the Python script executed successfully

@@ -1,0 +1,312 @@
+>[protein=nucleoprotein] [protein_id=AFG26295.1] lcl|JF796022.1_cds_AFG26295.1_2 Hit for: OR734632
+cagaaagtcaaagatgcagagaagcaatatgagaaggacccagatgagttaaacaagagg
+gcactg------------------------------------------------------
+---------------aggattgctacaggaaaaaatctggggcaagacagggatccaaca
+ggggtagaaccaggggaccatctgaaggagagatca------------------------
+------------------------------------------
+>Dabieshan virus JF796022.1 Hit for: OR734632
+cagaaagtcaaagatgcagagaagcaatatgagaaggacccagatgagttaaacaagagg
+gcactg------------------------------------------------------
+---------------aggattgctacaggaaaaaatctggggcaagacagggatccaaca
+ggggtagaaccaggggaccatctgaaggagagatca------------------------
+------------------------------------------
+>[protein=nucleocapsid protein] lcl|EU072480.1_cds_ABV80300.1_2 + lcl|OK500098.1_cds_UYS55324.1_3 + lcl|OM030307.1_cds_UOX72972.1_3 + lcl|OM030310.1_cds_UOX72975.1_3 + lcl|EF990913.1_cds_ABS83828.1_3 + lcl|EF990912.1_cds_ABS83827.1_3 + lcl|EF990911.1_cds_ABS83826.1_3 + lcl|EF990910.1_cds_ABS83825.1_3 + lcl|EF990909.1_cds_ABS83824.1_2 + lcl|EF990908.1_cds_ABS83823.1_2 + lcl|EF990915.1_cds_ABS83830.1_3 + lcl|EF990914.1_cds_ABS83829.1_3 + lcl|EF990907.1_cds_ABS83822.1_3 + lcl|EF990906.1_cds_ABS83821.1_3 + lcl|EF990905.1_cds_ABS83820.1_3 + lcl|EF990903.1_cds_ABS83818.1_2 + lcl|EF990902.1_cds_ABS83817.1_2 + lcl|EU092219.1_cds_ABV91646.1_3 + lcl|EU092218.1_cds_ABV91645.1_3 + lcl|EU092221.1_cds_ABV91648.1_3 + lcl|JX473004.1_cds_AFX97682.1_3 + lcl|AY627049.2_cds_AAT45728.1_3 + lcl|AY675349.1_cds_AAT78474.1_3 + lcl|KC344252.1_cds_AGC97122.1_2 + lcl|KC136244.1_cds_AGE13902.1_3 + lcl|AF291702.1_cds_AAG22531.1_3 + lcl|AY273791.1_cds_AAP33498.1_3 + lcl|AF184987.1_cds_AAF01411.1_3 Hit for: OR734632
+cagaaggtgagggatgcagaaaaacagtatgagaaggatccagatgagttaaacaagagg
+gcactgcatgatcgggagagtgtcgcagcttcaatacaatcaaaaattgatgaattgaag
+cgccaacttgccgacaggattgcagcagggaagaacatcgggcaagaccgggatcctaca
+ggggtagagcctgg-gatcatct-aaggaaagatcagcactaagctatgggaatacactg
+gacctgaatagtcttgacattgatgaacctacaggacagaca
+>Fusong virus EU072480.1 Hit for: OR734632
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------tgatcatctcaaggaaagatca------------------------
+------------------------------------------
+>Sapporo rat OK500098.1 Hit for: OR734632
+cagaaggtcaaggatgcagaaaagcagtatgagaaggatcctgatgacttaaacaagagg
+gcactgcatgatcgggagagtgtcgcagcttcaatacaatcaaaaattgatgaattgaag
+cgccaacttgccgacaggattgcagcagggaagaacatcgggcaggaccgggatcctaca
+ggggtagagccaggtgatcatcttaaggaaagatcagcactaagctacgggaatacactg
+gacctgaatagtcttgacattgatgaacctacaggacagaca
+>[gene=N] [protein=nucleocapsid lcl|MZ328256.1_cds_UBB42249.1_3 + lcl|MZ328259.1_cds_UBB42252.1_3 + lcl|MZ328271.1_cds_UBB42264.1_3 + lcl|MZ328274.1_cds_UBB42267.1_3 + lcl|MZ328265.1_cds_UBB42258.1_3 + lcl|MZ328262.1_cds_UBB42255.1_3 + lcl|MZ328268.1_cds_UBB42261.1_3 + lcl|KP013568.1_cds_AIY68288.1_3 + lcl|KC490918.1_cds_AHA83433.1_3 Hit for: OR734632
+cagaaggtcaa-gatgcagaaaagcaatatgagaaggaccc-gatga-ttaaacaagagg
+gcactgcatgaccg-gaaagtgt-gcagc-tc-at-ca-tcaaaaattgatga-ttgaag
+-g-cagcttgc-gataggattgcaacaggaaagaac-t-gggcaagatcgggatccaaca
+ggggtagagccagg-gatcatct-aaggaaagatcagcactaagctatgggaatacactg
+gacctgaatagtcttgacattgatgaacctacaggacagaca
+>Wenzhou Rattus MZ328256.1 + MZ328259.1 Hit for: OR734632
+cagaaggt-aaggatgcagaaaagcagtatgagaaggatcctga-gacttaaacaagagg
+gcactgcatgatcggga-agtgt-gcagcttcaat-caatcaaaaattgatgaattgaag
+cgccaacttgc-gacaggattgcagcagggaa-aacatcgggcaagaccgggatcctaca
+ggggtagagccgggtgatcatctcaaggaaagatcagcactaagctatgggaatacactg
+gacctgaatagtcttgacattgatgaacctacaggacagaca
+>Wufeng Niviventer MZ328271.1 + MZ328274.1 Hit for: OR734632
+cagaaagtcaaagatgcagaaaagcaatatgagaaggacccagatgagttaaacaagagg
+gcact-------------------------------------------------------
+---------------aggattgctacaggaaaaaacctgggacaagatcggga-ccaaca
+ggggtggaaccaggggatcatct-aaggaaagatca------------------------
+------------------------------------------
+>Wenzhou Niviventer OM030307.1 Hit for: OR734632
+cagaaagtcaaagatgcagagaagcaatatgagaaggacccagatgagttaaacaagagg
+gcactg------------------------------------------------------
+---------------aggattgctacaggaaaaaatctggggcaagatcgggatccaaca
+ggggtagaaccaggggaccatctgaaagagagatcaatgcttagttatgggaacattctt
+gacctaaatcacctggacattgatgaaccaacagggcagac-
+>Jingmen Rattus OM030310.1 Hit for: OR734632
+cagaaggtcaaggatgcagaaaagcagtatgagaaggatcctgatgacttaaacaagagg
+gcactgcatgatcgggagagtgtcgcagcttcaatacaatcaaaaattgatgaattgaag
+cgccaacttgccgacaggattgcagcagggaagaacatcgggcaagaccgggatcctaca
+ggggtagagccgggtgatcatctcaaggaaagatcagcactaagctatgggaatacactg
+gacctaaatagtcttgatattgatgagcctacaggacagaca
+>Hantaanvirus CGAa1011 EF990913.1 Hit for: OR734632
+cagaaggtgagagatgcagagaaacagtatgaaaaggaccctgatga-------------
+------------------------------------------------------------
+------------------------------------------------------------
+ggggtagagcctggggatcatctgaaggagagatca------------------------
+------------------------------------------
+>Hantaanvirus CGAa1015 EF990912.1 Hit for: OR734632
+cagaaggtgagagatgcagagaaacagtatgaaaaggaccctgatga-------------
+------------------------------------------------------------
+------------------------------------------------------------
+ggggtagagcctggggatcatctgaaggagagatca------------------------
+------------------------------------------
+>Hantaanvirus CGAa31MP7 EF990911.1 Hit for: OR734632
+cagaaggtgagggatgcagaaaaacaatatgagaaggatccagatga-------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------
+>Hantaanvirus CGAa31P9 EF990910.1 Hit for: OR734632
+cagaaggtgagggatgcagaaaaacaatatgagaaggatccagatga-------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------
+>Hantaanvirus CGHu3612 EF990909.1 Hit for: OR734632
+cagaaggtgagggatgcagaaaaacaatatgagaaggatccagatga-------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------
+>Hantaanvirus CGHu3614 EF990908.1 Hit for: OR734632
+cagaaggtgagggatgcagaaaaacaatatgagaaggatccagatga-------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------
+>Hantaanvirus CGAa4MP9 EF990915.1 Hit for: OR734632
+------------gatgcagagaaacagtatgagaaggaccctgatga-------------
+------------------------------------------------------------
+---------------------------------------------------------aca
+ggggtggagcctggagatcacctaaaggaaagatca------------------------
+------------------------------------------
+>Hantaanvirus CGAa4P15 EF990914.1 Hit for: OR734632
+------------gatgcagagaaacagtatgagaaggaccctgatga-------------
+------------------------------------------------------------
+---------------------------------------------------------aca
+ggggtggagcctggagatcacctaaaggaaagatca------------------------
+------------------------------------------
+>Hantaanvirus CGRn53 EF990907.1 Hit for: OR734632
+cagaaggtgagggatgcagaaaaacagtatgaaaaggatccagatga-------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------
+>Hantaanvirus CGRn5310 EF990906.1 Hit for: OR734632
+cagaaggtgagggatgcagaaaaacagtatgaaaaggatccagatga-------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------
+>Hantaanvirus CGRn93MP8 EF990905.1 Hit for: OR734632
+cagaaggtgagggatgcagaaaaacagtatgaaaaggatccagatga-------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------
+>Hantavirus CGRn8316 EF990903.1 Hit for: OR734632
+cagaaggtgagggatgcagaaaaacagtatgaaagggatccagatga-------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------
+>Hantavirus CGRn9415 EF990902.1 Hit for: OR734632
+cagaaggtgagggatgcagaaaaacagtatgaaagggatccagatga-------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------
+>Hantaanvirus CGAa2 EU092219.1 Hit for: OR734632
+cagaaggtgagggatgcagaaaaacaatatgagaaggatccagatga-------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------
+>Hantaanvirus CGHu1 EU092218.1 Hit for: OR734632
+cagaaggtgagggatgcagaaaagcaatatgagaaagattcagatgagttaaacaagaga
+acattaacagatcgagagggtgttgcagtatccatccaagcaaagattgatgaattgaag
+aggcaactggcagatcggattgcaaccggaaagaatcttgggaaagagcaagacccaaca
+ggggtagaacctggagatcatctgaaagagagatca------------------------
+------------------------------------------
+>Hantaanvirus CGRn45 EU092221.1 Hit for: OR734632
+cagaaggtgagggatgcagaaaaacaatatgagaaggatccagatga-------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------
+>[protein=nucelocapsid protein] lcl|GU140098.1_cds_ACY79415.1_3 Hit for: OR734632
+cagaaggtgagggatgcagaaaaacaatatgaaaaggatccagatga-------------
+------------------------------------------------------------
+---------------aggattgcaaccggaaagaaccttgggaaagaacaggatcccaca
+ggggttgagcctggagaccatctgaaagagagatca------------------------
+------------------------------------------
+>Hantavirus KY GU140098.1 Hit for: OR734632
+cagaaggtgagggatgcagaaaaacaatatgaaaaggatccagatga-------------
+------------------------------------------------------------
+---------------aggattgcaaccggaaagaaccttgggaaagaacaggatcccaca
+ggggttgagcctggagaccatctgaaagagagatca------------------------
+------------------------------------------
+>Amur virus JX473004.1 + KC136244.1 Hit for: OR734632
+-----------ggatgcagaaagacagtatgagaaggacccagatgagttaaataaaaga
+gcactaacagacagggaaggagtcgcagcatccattcaagcaaaaattgatgaattgaag
+cgacaattggcagacagaattgca------------------------------------
+------------------------------------------------------------
+------------------------------------------
+>[protein=nucleocapsid] [protein_id=QEG99436.1] lcl|MK340905.1_cds_QEG99436.1_3 Hit for: OR734632
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------cttgatattgatgaaccgacaggtcagac-
+>Academ virus MK340905.1 Hit for: OR734632
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------cttgatattgatgaaccgacaggtcagac-
+>Hantavirus BjHD01 AY627049.2 Hit for: OR734632
+cagaaggtcaaggatgcagaaaagcagtatgagaaggatcctgatgacttaaacaagagg
+gcactgcatgatcgggagagtgttgcagcttcaatacaatcaaaaattgatgaattgaag
+cgccaacttgccgacaggattgcagcagggaagaacatcgggcaagaccgggatcctaca
+ggggtagagccgggtgatcatctcaaggaaagatcagcactaagctatgggaatacactg
+gacctgaatagtcttgacattgatgaacctacaggacagaca
+>Longquan Leopoldamys MZ328265.1 Hit for: OR734632
+---aaggtcaaggatgcagaaaagcagtatgaaaaggatcctgatgatctaaacaagagg
+gcactgcatgaccgggaaagtgtggcagcttcaatacaatcaaaaattgatgaattgaag
+cgccagcttgccgataggattgcagcagggaagaacatcgggcaagatcgagatcctaca
+ggggtagagccgggtgatcaccttaaagagagatcagcattaagctatgggaatacactg
+gacttgaacagccttgacatcgatgagccaacaggacagaca
+>Longquan Niviventer MZ328262.1 + MZ328268.1 Hit for: OR734632
+cagaaagtcaaagatgcaga-aagcaatatgagaaggacccagatgagttaaacaa-agg
+gca-tgactgacagagaaggagttgcagcatctattcaggccaaaattgatgagctgaaa
+agacagctggcagataggattgcaacaggaaagaatctggggcaagatcgggatccaaca
+ggggtagaaccaggggaccatctgaaggagagatcaatgcttagctatgggaa-------
+------------------------------------------
+>[gene=S] [protein=nucleocapsid lcl|JF920150.1_cds_AES92929.1_3 Hit for: OR734632
+cagaaggtaaaggatgcagagaagcagtatgagaaggaccctgatgac------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------
+>Dobrava-Belgrade virus JF920150.1 Hit for: OR734632
+cagaaggtaaaggatgcagagaagcagtatgagaaggaccctgatgac------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------
+>Soochong virus-1 AY675349.1 Hit for: OR734632
+-----------ggatgcagaaaggcaatatgagaaggatccagatgagttgaacaa----
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------
+>[gene=S segment] lcl|AJ011646.1_cds_CAB42097.1_3 + lcl|AJ410615.1_cds_CAC85163.1_3 Hit for: OR734632
+cagaaggtgaaagatgcagaaaagcagtatgaaaaggatcctga----------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------tgatcatctcaaggaaagatca------------------------
+-----------tcttgacattgatgaacctacagg-------
+>Topografov hantavirus AJ011646.1 Hit for: OR734632
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------tgatcatctcaaggaaagatca------------------------
+------------------------------------------
+>Gou virus KC344252.1 Hit for: OR734632
+---aaggtcaaggatgcagaaaagcagtatgaaaaggatcctgatgatctaaacaagagg
+gcactgcatgaccgggaaagtgtggcagcttcaatacaatcaaaaattgatgaattgaag
+cgccagcttgccgataggattgcagcagggaagaatatcgggcaagatcgagatcctaca
+ggggtagagccgggtgatcaccttaaagagagatcagcattaagctatgggaatacactg
+gacttgaacagccttgacatcgatgagccaacaggacagaca
+>[db_xref=GOA:B7ZGY6,InterPro:IPR002214,UniProtKB/TrEMBL:B7ZGY6] [protein=nucleocapsid lcl|AM998808.2_cds_CAQ53174.2_3 Hit for: OR734632
+---aaggtcaaggatgcagaaaagcagtatgaaaaggatcctgatgatctaaacaagagg
+gcactgcatgaccgggaaagtgtggcagcttcaatacaatcaaaaattgatgaattgaag
+cgccagcttgccgataggattgcagcagggaagaatatcgggcaagatcgagatcctaca
+ggggtagagccgggtgatcaccttaaagagagatcagcattaagctatgggaatacactg
+gacttgaacagccttgacatcgatgagccaacaggacagaca
+>Serang virus AM998808.2 Hit for: OR734632
+cagaaagtaaaggatgcggaaagacaatatgaaaaagatcctgatgacttaaataagagg
+gcactgcatgaccgggagagtgtggctgcctccatacagtcaaagatagatgaactaaag
+aggcagcttgctgaccgggttgcagcagggaaaactatcggacaagacagggacccaact
+ggggtagaaccaggggatcatctcaaagaaagatc----------------------ctg
+gacctcaataatcttgacatcgaggaaccaacaggacagac-
+>Adler hantavirus KP013568.1 Hit for: OR734632
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------gagccggatgaccatctcaaggaaagatca------------------------
+------------------------------------------
+>Andes virus AF291702.1 Hit for: OR734632
+------------------------------------------------------------
+------------------------------------------------------------
+---------------------------------------------------gatccaaca
+gggcttgagcctgatgatcatctaaaggaaaaatcatctctgagatatgggaat------
+------------------------------------------
+>[protein_id=AAA43837.1] [location=37..1326] lcl|M14626.1_cds_AAA43837.1_3 Hit for: OR734632
+cagaaggtgagggatgcagaaaaacagtatgaaaaggatccagatgagttgaacaagag-
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------attgatgaacctacaggacagaca
+>Hantaan virus M14626.1 Hit for: OR734632
+cagaaggtgagggatgcagaaaaacagtatgaaaaggatccagatgagttgaacaagag-
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------attgatgaacctacaggacagaca
+>Seoul virus AY273791.1 Hit for: OR734632
+cagaaggtcaaggatgcagaaaagcagtatgagaaggatcctgatgacttaaacaagagg
+gcactgcatgatcgggagagtgtcgcagcttcaatacaatcaaaaattgatgaactgaag
+cgccaacttgccgacaggattgcagcagggaagaacatcgggcaagaccgggatcctaca
+ggggtagagccgggtgatcatctcaaggaaagatcagcactaagctacgggaatacactg
+gacctgaatagtcttgacattgatgaacctacaggaca----
+>Hantavirus Z10 AF184987.1 Hit for: OR734632
+------------gatgcagaaaaacagtatgaaaaggatccagatgagttaaataagag-
+------------------------------------------------------------
+--------------------------------------------------ggatccaaca
+ggggttgaacctggagaccatctgaaggaaagatcaaagcttagctatgggaat------
+------------------------------------------
+>Dobrava virus AJ410615.1 Hit for: OR734632
+cagaaggtgaaagatgcagaaaagcagtatgaaaaggatcctga----------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-----------tcttgacattgatgaacctacagg-------
+>[gene=S] [protein=N lcl|JQ082300.1_cds_AEZ02946.1_3 Hit for: OR734632
+---aaggtgaaggatgctgaaaaacagtatgagaaggatcctgatgaccttaataagagg
+gcact-------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------
+>Sangassou virus JQ082300.1 Hit for: OR734632
+---aaggtgaaggatgctgaaaaacagtatgagaaggatcctgatgaccttaataagagg
+gcact-------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------
+>Anjozorobe hantavirus KC490918.1 Hit for: OR734632
+---aaggtgaaggacgcagaaaggcaatacgaaaaagaccctgatgatctcaataagagg
+gcactacatgaccgtgaaagtgttgctgcctctatccagtcaaagatagatgagttaaag
+agacagcttgcggatcgggttgcaacaggaaagacaattgggcaggacagagatccaaca
+ggggttgagccaggagatca----------------------------------------
+------------------------------------------

@@ -17,13 +17,20 @@ def update_descriptions(treefile, fastafile, outputfile):
     tree = Phylo.read(treefile, 'newick')
 
     # Read sequences from the FASTA file
-    sequences = SeqIO.to_dict(SeqIO.parse(fastafile, "fasta"))
+    sequences_dict = {}
+    for record in SeqIO.parse(fastafile, "fasta"):
+        seq_id = record.id
+        if seq_id not in sequences_dict:
+            sequences_dict[seq_id] = [record]
+        else:
+            sequences_dict[seq_id].append(record)
+
 
     # Update descriptions in the tree
     for leaf in tree.get_terminals():
         sequence_id = leaf.name
-        if sequence_id in sequences:
-            description = sequences[sequence_id].description
+        if sequence_id in sequences_dict:
+            description = sequences_dict[sequence_id][0].description
             leaf.name = description
 
     # Write the updated tree to the output file
