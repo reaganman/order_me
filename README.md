@@ -99,3 +99,46 @@ NOTE THE NAMING ISSUES THAT NEED TO BE FIXED/MERGED IN THE GENERATED FASTA
 
 ## Purpose and usage of individual scripts
 
+### order_me.sh
+Main script for running the order_me pipelne
+
+Usage: See above
+### setup_blast.sh
+Downloading assemblies and making blast dbs
+
+Usage: 
+```bash
+bash setup_blast.sh --save_path ./ --taxid 1980413 --email your@email.com
+```
+### get_genomes.py
+Downolading assemblies for a specified taxonomic group using Entrez from NCBI
+
+Usage:
+```bash
+python3 --save_path ./ --taxid 1980413 --email your@email.com
+```
+### blast_em.sh
+Running BLAST searches, processing the results and creating a compiled alignment of the hits.
+
+Usage:
+```bash
+bash blast_em.sh --Assemblies [assemblies_dir] --query [queryID] --blast_type [blastn, blastn_short, tblastx] --evalue [evalue] --merge_by [species, id] --output_alignment[name_to_save_alignment]
+```
+BLAST results for individual assemblies can be viewed in the assemblies directory (
+
+NOTE: PROCESSING BLAST REUSLTS WILL NOT WORK IF --BLAST_TYPE TBLASTX IS USED 
+### get_fasta_from_blast.py 
+Making fasta files for each blast hit with query sequence to align
+
+Individual hit fastas are saved with the associated assembly
+Usage: 
+```bash
+python3 get_fasta_from_blast.py results_file [_blastn.tsv] header [must_match_outfmt_of_blast] query_file [query.fasta]
+```
+For formatting example of blast results see `blast_em.sh` and 
+
+### merge_by_species.py
+
+
+
+ 
