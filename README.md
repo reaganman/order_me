@@ -8,7 +8,9 @@
 
 ## Introduction
 
-`order_me` is a pipeline designed to track the evolution of a specific sequence of interest within a specified taxonomic group. It utilizes various scripts to download genomic data, perform sequence searches, and generate alignments for further analysis. Functionality to make and view phylogentics trees is also included
+`order_me` is a pipeline designed to track the evolution of a specific sequence of interest within a specified taxonomic group. It utilizes various scripts to download genomic data, perform sequence searches, and generate alignments for further analysis. 
+
+Functionality to make and view phylogentics trees is also included
 
 ## Dependencies
 
@@ -50,6 +52,7 @@ NOTE! BE CAREFUL SELECTING TAXID AS THIS PIPELINE WILL DOWNLOAD ALL AVALIABLE AS
 bash setup_blast.sh --save_path [path] --taxid [taxonomic_id] --email [your_email]
 ```
 --save_path is the directory where a subdirectory with the assemblies and blast dbs will be created. It's a good idea to make sure the is suffient disk space available.
+
 Alternativley, this can be accomplished by using the --setup True option with order_me.sh
 ### 5. Run pipeline
 ```bash
@@ -63,7 +66,9 @@ Additionally, if this is the first time searching a certain taxid, make sure to 
 ```bash
 --setup True
 ```
-Defaults and are set to result in the maximum number of hits (blast_type = blastn_short, evalue = 0.0001) To modify this, simply use the options: 
+Defaults and are set to result in the maximum number of hits (blast_type = blastn_short, evalue = 0.0001) 
+
+To modify this, simply use the options: 
 ```bash
 --blast_type [blastn, blastn_short, tblastx] --evalue[your_evalue]
 ```
@@ -81,12 +86,15 @@ bash make_tree.sh [generated_alignment]
 ```
 ## Run with test data
 Test data is included with the order_me repository 
+
 To run the pipline with this data use:
 ```bash
 bash order_me.sh --query OR734632 --taxid 1980413 --email [your_email]
 ``` 
 This searches the taxonomic group Hantaviridae for sequences homologous to Orthohantavirus nucleocapsid protein gene
 Generated tree is included
-[Local Image]( 
+[Local Image](OR734632_in_1980413_blastn_short_tree.png)
+NOTE THE NAMING ISSUES THAT NEED TO BE FIXED/MERGED IN THE GENERATED FASTA
 
-$$$Going through your files I would like to see more doc strings. I think it would be helpful for them to describe the types of files that are being inputted and outputted. Also a brief overview of what the files do. The comments are helpful and I would keep those, but have a broad description in the doc string. Also, here in the readme I think it would be helpful to have a schematic that shows the progression of the files or maybe a short paragraph that describes something along the lines of "you start with file A then pass it through codeA and get file B, then yuo take file B and... etc". --Erin $$$
+## Purpose and usage of individual scripts
+
