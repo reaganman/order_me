@@ -45,7 +45,7 @@ if [[ ! "$save_path" || ! "$taxid" ]]; then
 fi
 
 # Download assemblies
-python3 get_genomes.py --taxid "$taxid" --email "$email" --save_path "$save_path"
+python3 get_genomes.py --tax_id "$taxid" --email "$email" --save_path "$save_path"
 Assemblies="$save_path"/Assemblies_"$taxid"/*
 
 # Unzip the fnas
