@@ -6,7 +6,7 @@
 #
 
 # Load environment
-#conda env create -f env.yml
+#conda env create -f order_me_env.yml
 #conda activate order_me_environment
 
 # Set default values

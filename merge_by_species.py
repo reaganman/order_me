@@ -23,7 +23,7 @@ def consensus_by_species(input_file, output_file, query):
     species_records = {}
 
     for record in records:
-        species = " ".join(record.description.split(" ")[1:3])
+        species = " ".join(record.description.split(" ")[1:3]) #may require adjustment to accuratly pasrse species
         if species not in species_records:
             species_records[species] = [record]
         else:
@@ -46,7 +46,7 @@ def consensus_by_species(input_file, output_file, query):
         except:
             print(f"ERROR: GENERATING CONSNESUS SEQUENCE FOR: {species}")
         print(species)
-        consensus_id = species + " " + " + ".join(seq_ids)
+        consensus_id = "+".join(seq_ids) + "_" + species.replace(" ","_")
         consensus_description = "Hit for: " + query
         consensus_record = SeqRecord(consensus_sequence, id=consensus_id, description=consensus_description)
         merged_records.append(consensus_record)

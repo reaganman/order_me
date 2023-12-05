@@ -2,7 +2,7 @@
 #
 # setup_blast.sh - Script for setting up BLAST searches by downloading and preparing assemblies.
 #
-# Usage: bash setup_blast.sh --save_path <path> --taxid <taxid> --email <email> --query <query>
+# USAGE: bash setup_blast.sh --save_path [location_of_assemblies_dir] --taxid [tax_id] --email [your_email]
 #
 
 # Parse command-line arguments
@@ -32,7 +32,7 @@ while [[ $# -gt 0 ]]; do
             ;;
         *)
             echo "UNKNOWN OPTION: $1"
-            echo "USAGE: bash setup_blast.sh --save_path --taxid --email --query"
+            echo "USAGE: bash setup_blast.sh --save_path [location_of_assemblies_dir] --taxid [tax_id] --email [your_email]"
             exit 1
             ;;
     esac
@@ -40,7 +40,7 @@ done
 
 # Check if required options are provided
 if [[ ! "$save_path" || ! "$taxid" ]]; then
-    echo "USAGE: bash setup_blast.sh --save_path <path> --taxid <taxid>"
+    echo "USAGE: bash setup_blast.sh --save_path <path> --taxid <taxid> --email <your_email>"
     exit 1
 fi
 

@@ -16,9 +16,12 @@ def view_tree(treefile, outfile):
     # Read the phylogenetic tree from the Newick file
     tree = Phylo.read(treefile, 'newick')
 
+    # Create a larger figure size (adjust the width and height as needed)
+    fig, ax = plt.subplots(figsize=(10, 10))
+
     # Draw and display the phylogenetic tree
-    Phylo.draw(tree)
-    
+    Phylo.draw(tree, axes=ax)
+
     # Show the plot
     plt.show()
 
@@ -37,4 +40,3 @@ if __name__ == '__main__':
 
     # Call the view_tree function with the provided arguments
     view_tree(treefile, outfile)
-

@@ -5,10 +5,10 @@ import argparse
 
 def download_assemblies_for_order(tax_id, email, save_path):
     """
-    Download assemblies for a specified taxonomic order using Entrez from NCBI.
+    Download assemblies for a specified taxonomic group using Entrez from NCBI.
 
     Args:
-        tax_id (int): Taxonomic identifier for the order.
+        tax_id (int): Taxonomic identifier for the group.
         email (str): Your email address for NCBI API usage.
         save_path (str): Path to save the order directory.
     """
@@ -18,7 +18,7 @@ def download_assemblies_for_order(tax_id, email, save_path):
     retmax = 500
     retstart = 0
 
-    # Create a directory for the order
+    # Create a directory for the group
     order_directory = os.path.join(save_path, f"Assemblies_{tax_id}")
     if not os.path.exists(order_directory):
         os.makedirs(order_directory)
@@ -38,10 +38,10 @@ def download_assemblies_for_order(tax_id, email, save_path):
 
 def fetch_assembly_ids(tax_id, retmax, retstart):
     """
-    Fetch assembly IDs for a specified taxonomic order.
+    Fetch assembly IDs for a specified taxonomic group.
 
     Args:
-        tax_id (int): Taxonomic identifier for the order.
+        tax_id (int): Taxonomic identifier for the group.
         retmax (int): Maximum number of records to retrieve.
         retstart (int): Index of the first record to retrieve.
 
@@ -84,8 +84,8 @@ def download_assemblies(id_list, order_directory):
 
 if __name__ == "__main__":
     # Argument parsing
-    parser = argparse.ArgumentParser(description='Download assemblies for a specified order from NCBI.')
-    parser.add_argument('--tax_id', type=int, required=True, help='Taxonomic identifier for the order')
+    parser = argparse.ArgumentParser(description='Download assemblies for a specified taxonomic group using Entrez from NCBI.')
+    parser.add_argument('--tax_id', type=int, required=True, help='Taxonomic identifier for the group')
     parser.add_argument('--email', type=str, required=True, help='Your email address')
     parser.add_argument('--save_path', type=str, required=True, help='Path to save the order directory')
     args = parser.parse_args()

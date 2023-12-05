@@ -71,7 +71,7 @@ def make_fasta(in_file, query_file):
 
 def main():
     """
-    Main function that parses command-line arguments and executes the necessary functions.
+    Parse command-line arguments and execute script.
     """
     parser = argparse.ArgumentParser(description='Process BLAST results and create FASTA files for each hit.')
     parser.add_argument('results_file', type=str, help='Path to the BLAST results file.')

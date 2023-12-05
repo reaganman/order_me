@@ -7,4 +7,13 @@
 #SBATCH -e slurm-%j.err-%N
 
 cd ~/fr10_evolution/order_me
-bash order_me.sh U44831 8342 /scratch/general/nfs1/utu_4310/fr10_evolution_wd/test_get_genomes 0.0001 reagan.mckee@utahtech.edu
+python3 align_indivually.py apo_hits_for_fr10.fasta U44831.1
+
+#bash order_me.sh --query U44831 --taxid 8342 --email reagan.mckee@utahtech.edu --save_path /scratch/general/nfs1/utu_4310/fr10_evolution_wd/test_get_genomes
+
+#bash test_order_me.sh --save_path /scratch/general/nfs1/utu_4310/fr10_evolution_wd/test_get_genomes --query U44831 --taxid 8342 --email reagan.mckee@utahtech.edu
+
+#bash test_order_me.sh --save_path /scratch/general/nfs1/utu_4310/fr10_evolution_wd/test_get_genomes --query XM_040412442 --taxid 8342 --email reagan.mckee@utahtech.edu
+#python3 test_get_nucleotides.py --taxid 8342 --email reagan.mckee@utahtech.edu --save_path /scratch/general/nfs1/utu_4310/fr10_evolution_wd/test_get_genomes 
+
+#bash test_order_me.sh U44831 8342 /scratch/general/nfs1/utu_4310/fr10_evolution_wd/test_get_genomes 0.0001 reagan.mckee@utahtech.edu blastn_short test_order_me

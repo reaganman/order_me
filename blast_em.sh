@@ -2,7 +2,8 @@
 #
 # blast_em.sh - script for running blast searches and creating a compiled alignment of the hits.
 #
-
+# USAGE: bash blast_em.sh --Assemblies [assemblies_dir] --query [queryID] --blast_type [blastn, blastn_short, tblastx] --evalue [evalue] --merge_by [species, id] --output_alignment[name_to_save_alignment]
+#
 # Set the default merge option to "species"
 merge_by=species
 
@@ -42,6 +43,7 @@ while [[ $# -gt 0 ]]; do
             ;;
         *)
             echo "UNKNOWN OPTION $1"
+            echo "USAGE: bash blast_em.sh --Assemblies [assemblies_dir] --query [queryID] --blast_type [blastn, blastn_short, tblastx] --evalue [evalue] --merge_by [species, id] --output_alignment[name_to_save_alignment]"
             exit 1
             ;;
     esac
