@@ -12,9 +12,9 @@ def consensus_by_species(input_file, output_file, query):
     NOTE: INPUT FASTA MUST HAVE CORRECT FORMATTING FOR SEQ IDS AND SPECIES NAMES. SEE THE EXAMPLE ALIGNMENT
 
     Parameters:
-        input_file (str): Path to the input FASTA file containing sequences.
-        output_file (str): Path to the output FASTA file to store consensus sequences.
-        query (str): Identifier for the query sequence.
+        input_file (str): Path to the input FASTA file.
+        output_file (str): Path to the output FASTA file to save consensus sequences.
+        query (str): ID for the query sequence.
 
     Returns:
         None
