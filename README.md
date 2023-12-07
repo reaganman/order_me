@@ -9,9 +9,9 @@
 - [Other scripts](#Other_scripts)
 ## Introduction
 
-`order_me` is a pipeline designed to track the evolution of a specific sequence of interest within a specified taxonomic group. It utilizes various scripts to download genomic data, perform sequence searches, and generate alignments for further analysis. 
+`order_me` is a pipeline of bash and python scripts designed to track the evolution of a specific sequence of interest within a specified taxonomic group. Various scripts download genomic data, perform sequence searches, and generate alignments for further analysis. 
 
-Functionality to make and view phylogentics trees is also included
+Functionality to make and view phylogentic trees is also included
 
 ## Dependencies
 
@@ -24,6 +24,8 @@ Ensure you have the following dependencies available before running the pipeline
 - mafft (aligning blast results)
 
 Alternativley there is a conda environment with the required dependencies that can be loaded by running:
+
+MAKE SURE YOU HAVE IMPORTANT DOCUMENTS SAVED...
 
 ```bash
 conda env create -f order_me_env.yml
@@ -105,18 +107,18 @@ Main script for running the order_me pipelne
 
 Usage: See above
 ### setup_blast.sh
-Downloading assemblies and making blast dbs
+Downloading assemblies with `get_genomes.py` and making blast dbs for said assemblies
 
 Usage: 
 ```bash
-bash setup_blast.sh --save_path ./ --taxid 1980413 --email your@email.com
+bash setup_blast.sh --save_path [to_save_assemblies] --taxid [your_taxID] --email [your@email.com]
 ```
 ### get_genomes.py
 Downolading assemblies for a specified taxonomic group using Entrez from NCBI
 
 Usage:
 ```bash
-python3 --save_path ./ --taxid 1980413 --email your@email.com
+python3 --save_path [to_save_assemblies] --taxid [your_taxID] --email [your@email.com]
 ```
 ### blast_em.sh
 Running BLAST searches, processing the results and creating a compiled alignment of the hits.
