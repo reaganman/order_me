@@ -9,7 +9,7 @@ import sys
 def consensus_by_species(input_file, output_file, query):
     """
     Generate a consensus sequence for each species in the input FASTA file.
-    NOTE: INPUT FASTA MUST HAVE CORRECT FORMATTING FOR SEQ IDS. SEE merge_by_example.fasta
+    NOTE: INPUT FASTA MUST HAVE CORRECT FORMATTING FOR SEQ IDS.
 
     Parameters:
         input_file (str): Path to the input FASTA file containing sequences.
