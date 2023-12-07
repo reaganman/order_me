@@ -94,13 +94,13 @@ Assemblies="$save_path"/Assemblies_"$taxid"/
 final_aligned_results="$query"_in_"$taxid"_"$blast_type".fasta
 bash blast_em.sh --Assemblies "$Assemblies" --query "$query" --blast_type "$blast_type" --evalue "$evalue" --output_alignment "$final_aligned_results"
 
-echo "Alignment created: $final_aligned_results"
-echo "Check alignment then generate a consensus tree with: bash make_tree.sh $final_aligned_results"
+echo "Alignment created: $query/$final_aligned_results"
+echo "Check alignment then generate a consensus tree with: bash make_tree.sh $query/$final_aligned_results"
 
 # Create a results directory if it doesn't exist
-results_dir="order_me_results"
+results_dir="$query"
 if [[ ! -d "$results_dir" ]]; then 
     mkdir "$results_dir"
 fi
-mv *results* $results_dir/ 2> /dev/nul
+mv *"$query"* "$results_dir" 
 
