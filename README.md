@@ -9,7 +9,7 @@
 - [Other scripts](#Other_scripts)
 ## Introduction
 
-`order_me` is a pipeline of 9 bash and python scripts designed to track the evolution of a specific sequence of interest within a specified taxonomic group. Various scripts download genomic data, perform sequence searches, generate alignments and create a consensus tree. Subseqent analysis of the results can be used to identify homologs, investigate sequencence function, and determine evolutionary significance. This pipeline is intended to be run with a slurm manager.  
+`order_me` is a pipeline of 9 bash and python scripts designed to track the evolution of a specific sequence of interest within a specified taxonomic group. Various scripts download genomic data, perform sequence searches, generate alignments and create a consensus tree. Subseqent analysis of the results can be used to identify homologs, investigate sequencence function, and determine evolutionary significance. This pipeline is intended to be run with a slurm workload manager.  
 
 General data flow:
 
@@ -19,7 +19,7 @@ General data flow:
 
 ## Dependencies
 
-Ensure that the following dependencies are accesable before running the pipeline:
+Ensure that the following dependencies are accessable before running the pipeline:
 - blast (performing local alignment search)
 - Python 3 (processing blast results)
 - BioPython (downloading genomes and dealing with fastas)
@@ -98,7 +98,7 @@ To run the pipline with this data use:
 ```bash
 bash order_me.sh --query OR734632 --taxid 1980413 --email [your_email]
 ``` 
-This searches the taxonomic group Hantaviridae for sequences homologous to Orthohantavirus nucleocapsid protein gene
+This searches the taxonomic group Hantaviridae for sequences homologous to the Hantavirus nucleocapsid protein gene
 
 Generated tree is included
 ![Local Image](OR734632/OR734632_in_1980413_blastn_short_tree.png)
