@@ -131,7 +131,9 @@ Usage:
 ```bash
 bash blast_em.sh --Assemblies [assemblies_dir] --query [queryID] --blast_type [blastn, blastn_short, tblastx] --evalue [evalue] --merge_by [species, id] --output_alignment[name_to_save_alignment]
 ```
-BLAST results for individual assemblies can be viewed in the assemblies directory ex: Assemblies_1980413/ASM282226v1/GCA_002822265.1_ASM282226v1_cds_from_genomic_OR734632_blastn_short_results_formatted.tsv
+BLAST results for individual assemblies can be viewed in the assemblies directory 
+
+[Example](Assemblies_1980413/ASM282226v1/GCA_002822265.1_ASM282226v1_cds_from_genomic_OR734632_blastn_short_results_formatted.tsv)
 
 NOTE: PROCESSING BLAST REUSLTS WILL NOT WORK IF --BLAST_TYPE TBLASTX IS USED 
 ### get_fasta_from_blast.py 
@@ -140,7 +142,9 @@ Usage:
 ```bash
 python3 get_fasta_from_blast.py results_file [_blastn.tsv] header [must_match_outfmt_of_blast] query_file [query.fasta]
 ```
-Fasta for individual hits are saved with the associated assembly ex: Assemblies_1980413/ASM282226v1/GCA_002822265.1_ASM282226v1_cds_from_genomic_OR734632_blastn_short_results_formatted_combined_0.fasta 
+Fasta for individual hits are saved with the associated assembly
+
+[Example](Assemblies_1980413/ASM282226v1/GCA_002822265.1_ASM282226v1_cds_from_genomic_OR734632_blastn_short_results_formatted_combined_0.fasta) 
 
 ### merge_by_species.py
 Generating a consensus sequence for each species in the input fasta
