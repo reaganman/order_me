@@ -1,0 +1,624 @@
+IQ-TREE multicore version 2.2.2.4 COVID-edition for Linux 64-bit built Apr 17 2023
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    kp196 (AVX, 377 GB RAM)
+Command: iqtree2 -s OR734632_in_1980413_blastn_short.fasta -B 1000 -redo
+Seed:    808338 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Dec  5 10:10:12 2023
+Kernel:  AVX - 1 threads (40 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 40 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file OR734632_in_1980413_blastn_short.fasta ... Fasta format detected
+Reading fasta file: done in 0.000398381 secs using 95.64% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.000611208 secs using 95.71% CPU
+Alignment has 52 sequences with 282 columns, 183 distinct patterns
+93 parsimony-informative, 22 singleton sites, 167 constant sites
+WARNING: Some sequence names are changed as follows:
+lcl|JF796022.1_cds_AFG26295.1_2_[protein=nucleoprotein]_[protein_id=AFG26295.1] -> lcl|JF796022.1_cds_AFG26295.1_2__protein_nucleoprotein___protein_id_AFG26295.1_
+lcl|EU072480.1_cds_ABV80300.1_2+lcl|OK500098.1_cds_UYS55324.1_3+lcl|OM030307.1_cds_UOX72972.1_3+lcl|OM030310.1_cds_UOX72975.1_3+lcl|EF990913.1_cds_ABS83828.1_3+lcl|EF990912.1_cds_ABS83827.1_3+lcl|EF990911.1_cds_ABS83826.1_3+lcl|EF990910.1_cds_ABS83825.1_3+lcl|EF990909.1_cds_ABS83824.1_2+lcl|EF990908.1_cds_ABS83823.1_2+lcl|EF990915.1_cds_ABS83830.1_3+lcl|EF990914.1_cds_ABS83829.1_3+lcl|EF990907.1_cds_ABS83822.1_3+lcl|EF990906.1_cds_ABS83821.1_3+lcl|EF990905.1_cds_ABS83820.1_3+lcl|EF990903.1_cds_ABS83818.1_2+lcl|EF990902.1_cds_ABS83817.1_2+lcl|EU092219.1_cds_ABV91646.1_3+lcl|EU092218.1_cds_ABV91645.1_3+lcl|EU092221.1_cds_ABV91648.1_3+lcl|JX473004.1_cds_AFX97682.1_3+lcl|AY627049.2_cds_AAT45728.1_3+lcl|AY675349.1_cds_AAT78474.1_3+lcl|KC344252.1_cds_AGC97122.1_2+lcl|KC136244.1_cds_AGE13902.1_3+lcl|AF291702.1_cds_AAG22531.1_3+lcl|AY273791.1_cds_AAP33498.1_3+lcl|AF184987.1_cds_AAF01411.1_3_[protein=nucleocapsid_protein] -> lcl|EU072480.1_cds_ABV80300.1_2_lcl|OK500098.1_cds_UYS55324.1_3_lcl|OM030307.1_cds_UOX72972.1_3_lcl|OM030310.1_cds_UOX72975.1_3_lcl|EF990913.1_cds_ABS83828.1_3_lcl|EF990912.1_cds_ABS83827.1_3_lcl|EF990911.1_cds_ABS83826.1_3_lcl|EF990910.1_cds_ABS83825.1_3_lcl|EF990909.1_cds_ABS83824.1_2_lcl|EF990908.1_cds_ABS83823.1_2_lcl|EF990915.1_cds_ABS83830.1_3_lcl|EF990914.1_cds_ABS83829.1_3_lcl|EF990907.1_cds_ABS83822.1_3_lcl|EF990906.1_cds_ABS83821.1_3_lcl|EF990905.1_cds_ABS83820.1_3_lcl|EF990903.1_cds_ABS83818.1_2_lcl|EF990902.1_cds_ABS83817.1_2_lcl|EU092219.1_cds_ABV91646.1_3_lcl|EU092218.1_cds_ABV91645.1_3_lcl|EU092221.1_cds_ABV91648.1_3_lcl|JX473004.1_cds_AFX97682.1_3_lcl|AY627049.2_cds_AAT45728.1_3_lcl|AY675349.1_cds_AAT78474.1_3_lcl|KC344252.1_cds_AGC97122.1_2_lcl|KC136244.1_cds_AGE13902.1_3_lcl|AF291702.1_cds_AAG22531.1_3_lcl|AY273791.1_cds_AAP33498.1_3_lcl|AF184987.1_cds_AAF01411.1_3__protein_nucleocapsid_protein_
+lcl|MZ328256.1_cds_UBB42249.1_3+lcl|MZ328259.1_cds_UBB42252.1_3+lcl|MZ328271.1_cds_UBB42264.1_3+lcl|MZ328274.1_cds_UBB42267.1_3+lcl|MZ328265.1_cds_UBB42258.1_3+lcl|MZ328262.1_cds_UBB42255.1_3+lcl|MZ328268.1_cds_UBB42261.1_3+lcl|KP013568.1_cds_AIY68288.1_3+lcl|KC490918.1_cds_AHA83433.1_3_[gene=N]_[protein=nucleocapsid -> lcl|MZ328256.1_cds_UBB42249.1_3_lcl|MZ328259.1_cds_UBB42252.1_3_lcl|MZ328271.1_cds_UBB42264.1_3_lcl|MZ328274.1_cds_UBB42267.1_3_lcl|MZ328265.1_cds_UBB42258.1_3_lcl|MZ328262.1_cds_UBB42255.1_3_lcl|MZ328268.1_cds_UBB42261.1_3_lcl|KP013568.1_cds_AIY68288.1_3_lcl|KC490918.1_cds_AHA83433.1_3__gene_N___protein_nucleocapsid
+MZ328256.1+MZ328259.1_Wenzhou_Rattus -> MZ328256.1_MZ328259.1_Wenzhou_Rattus
+MZ328271.1+MZ328274.1_Wufeng_Niviventer -> MZ328271.1_MZ328274.1_Wufeng_Niviventer
+lcl|GU140098.1_cds_ACY79415.1_3_[protein=nucelocapsid_protein] -> lcl|GU140098.1_cds_ACY79415.1_3__protein_nucelocapsid_protein_
+JX473004.1+KC136244.1_Amur_virus -> JX473004.1_KC136244.1_Amur_virus
+lcl|MK340905.1_cds_QEG99436.1_3_[protein=nucleocapsid]_[protein_id=QEG99436.1] -> lcl|MK340905.1_cds_QEG99436.1_3__protein_nucleocapsid___protein_id_QEG99436.1_
+MZ328262.1+MZ328268.1_Longquan_Niviventer -> MZ328262.1_MZ328268.1_Longquan_Niviventer
+lcl|JF920150.1_cds_AES92929.1_3_[gene=S]_[protein=nucleocapsid -> lcl|JF920150.1_cds_AES92929.1_3__gene_S___protein_nucleocapsid
+lcl|AJ011646.1_cds_CAB42097.1_3+lcl|AJ410615.1_cds_CAC85163.1_3_[gene=S_segment] -> lcl|AJ011646.1_cds_CAB42097.1_3_lcl|AJ410615.1_cds_CAC85163.1_3__gene_S_segment_
+lcl|AM998808.2_cds_CAQ53174.2_3_[db_xref=GOA:B7ZGY6,InterPro:IPR002214,UniProtKB/TrEMBL:B7ZGY6]_[protein=nucleocapsid -> lcl|AM998808.2_cds_CAQ53174.2_3__db_xref_GOA_B7ZGY6_InterPro_IPR002214_UniProtKB/TrEMBL_B7ZGY6___protein_nucleocapsid
+lcl|M14626.1_cds_AAA43837.1_3_[protein_id=AAA43837.1]_[location=37..1326] -> lcl|M14626.1_cds_AAA43837.1_3__protein_id_AAA43837.1___location_37..1326_
+lcl|JQ082300.1_cds_AEZ02946.1_3_[gene=S]_[protein=N -> lcl|JQ082300.1_cds_AEZ02946.1_3__gene_S___protein_N
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 3.55486e-05 secs
+   1  lcl|JF796022.1_cds_AFG26295.1_2__protein_nucleoprotein___protein_id_AFG26295.1_                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  47.87%    passed     54.30%
+   2  JF796022.1_Dabieshan_virus                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       47.87%    passed     54.30%
+   3  lcl|EU072480.1_cds_ABV80300.1_2_lcl|OK500098.1_cds_UYS55324.1_3_lcl|OM030307.1_cds_UOX72972.1_3_lcl|OM030310.1_cds_UOX72975.1_3_lcl|EF990913.1_cds_ABS83828.1_3_lcl|EF990912.1_cds_ABS83827.1_3_lcl|EF990911.1_cds_ABS83826.1_3_lcl|EF990910.1_cds_ABS83825.1_3_lcl|EF990909.1_cds_ABS83824.1_2_lcl|EF990908.1_cds_ABS83823.1_2_lcl|EF990915.1_cds_ABS83830.1_3_lcl|EF990914.1_cds_ABS83829.1_3_lcl|EF990907.1_cds_ABS83822.1_3_lcl|EF990906.1_cds_ABS83821.1_3_lcl|EF990905.1_cds_ABS83820.1_3_lcl|EF990903.1_cds_ABS83818.1_2_lcl|EF990902.1_cds_ABS83817.1_2_lcl|EU092219.1_cds_ABV91646.1_3_lcl|EU092218.1_cds_ABV91645.1_3_lcl|EU092221.1_cds_ABV91648.1_3_lcl|JX473004.1_cds_AFX97682.1_3_lcl|AY627049.2_cds_AAT45728.1_3_lcl|AY675349.1_cds_AAT78474.1_3_lcl|KC344252.1_cds_AGC97122.1_2_lcl|KC136244.1_cds_AGE13902.1_3_lcl|AF291702.1_cds_AAG22531.1_3_lcl|AY273791.1_cds_AAP33498.1_3_lcl|AF184987.1_cds_AAF01411.1_3__protein_nucleocapsid_protein_    0.71%    passed     80.51%
+   4  EU072480.1_Fusong_virus                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          92.20%    passed     68.57%
+   5  OK500098.1_Sapporo_rat                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            0.00%    passed     57.12%
+   6  lcl|MZ328256.1_cds_UBB42249.1_3_lcl|MZ328259.1_cds_UBB42252.1_3_lcl|MZ328271.1_cds_UBB42264.1_3_lcl|MZ328274.1_cds_UBB42267.1_3_lcl|MZ328265.1_cds_UBB42258.1_3_lcl|MZ328262.1_cds_UBB42255.1_3_lcl|MZ328268.1_cds_UBB42261.1_3_lcl|KP013568.1_cds_AIY68288.1_3_lcl|KC490918.1_cds_AHA83433.1_3__gene_N___protein_nucleocapsid                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    6.03%    passed     91.44%
+   7  MZ328256.1_MZ328259.1_Wenzhou_Rattus                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              2.48%    passed     71.03%
+   8  MZ328271.1_MZ328274.1_Wufeng_Niviventer                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          48.94%    passed     57.47%
+   9  OM030307.1_Wenzhou_Niviventer                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    24.82%    passed     97.99%
+  10  OM030310.1_Jingmen_Rattus                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         0.00%    passed     59.01%
+  11  EF990913.1_Hantaanvirus_CGAa1011                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 70.57%    passed     48.48%
+  12  EF990912.1_Hantaanvirus_CGAa1015                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 70.57%    passed     48.48%
+  13  EF990911.1_Hantaanvirus_CGAa31MP7                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                83.33%    passed     51.67%
+  14  EF990910.1_Hantaanvirus_CGAa31P9                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 83.33%    passed     51.67%
+  15  EF990909.1_Hantaanvirus_CGHu3612                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 83.33%    passed     51.67%
+  16  EF990908.1_Hantaanvirus_CGHu3614                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 83.33%    passed     51.67%
+  17  EF990915.1_Hantaanvirus_CGAa4MP9                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 73.76%    passed     86.57%
+  18  EF990914.1_Hantaanvirus_CGAa4P15                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 73.76%    passed     86.57%
+  19  EF990907.1_Hantaanvirus_CGRn53                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   83.33%    passed     51.67%
+  20  EF990906.1_Hantaanvirus_CGRn5310                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 83.33%    passed     51.67%
+  21  EF990905.1_Hantaanvirus_CGRn93MP8                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                83.33%    passed     51.67%
+  22  EF990903.1_Hantavirus_CGRn8316                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   83.33%    passed     52.36%
+  23  EF990902.1_Hantavirus_CGRn9415                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   83.33%    passed     52.36%
+  24  EU092219.1_Hantaanvirus_CGAa2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    83.33%    passed     51.67%
+  25  EU092218.1_Hantaanvirus_CGHu1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    23.40%    passed     82.45%
+  26  EU092221.1_Hantaanvirus_CGRn45                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   83.33%    passed     51.67%
+  27  lcl|GU140098.1_cds_ACY79415.1_3__protein_nucelocapsid_protein_                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   54.61%    passed     78.29%
+  28  GU140098.1_Hantavirus_KY                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         54.61%    passed     78.29%
+  29  JX473004.1_KC136244.1_Amur_virus                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 52.84%    passed     76.13%
+  30  lcl|MK340905.1_cds_QEG99436.1_3__protein_nucleocapsid___protein_id_QEG99436.1_                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   89.72%    passed     60.61%
+  31  MK340905.1_Academ_virus                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          89.72%    passed     60.61%
+  32  AY627049.2_Hantavirus_BjHD01                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      0.00%    passed     59.01%
+  33  MZ328265.1_Longquan_Leopoldamys                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   1.06%    passed     73.33%
+  34  MZ328262.1_MZ328268.1_Longquan_Niviventer                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        18.44%    passed     95.54%
+  35  lcl|JF920150.1_cds_AES92929.1_3__gene_S___protein_nucleocapsid                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   82.98%    passed     80.26%
+  36  JF920150.1_Dobrava-Belgrade_virus                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                82.98%    passed     80.26%
+  37  AY675349.1_Soochong_virus-1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      84.04%    passed     73.54%
+  38  lcl|AJ011646.1_cds_CAB42097.1_3_lcl|AJ410615.1_cds_CAC85163.1_3__gene_S_segment_                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 68.09%    passed     66.75%
+  39  AJ011646.1_Topografov_hantavirus                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 92.20%    passed     68.57%
+  40  KC344252.1_Gou_virus                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              1.06%    passed     74.53%
+  41  lcl|AM998808.2_cds_CAQ53174.2_3__db_xref_GOA_B7ZGY6_InterPro_IPR002214_UniProtKB/TrEMBL_B7ZGY6___protein_nucleocapsid                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             1.06%    passed     74.53%
+  42  AM998808.2_Serang_virus                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           8.16%    passed     62.99%
+  43  KP013568.1_Adler_hantavirus                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      89.36%    passed     81.71%
+  44  AF291702.1_Andes_virus                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           77.66%    passed     42.62%
+  45  lcl|M14626.1_cds_AAA43837.1_3__protein_id_AAA43837.1___location_37..1326_                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        70.57%    passed     65.57%
+  46  M14626.1_Hantaan_virus                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           70.57%    passed     65.57%
+  47  AY273791.1_Seoul_virus                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            1.42%    passed     47.83%
+  48  AF184987.1_Hantavirus_Z10                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        60.64%    passed     73.85%
+  49  AJ410615.1_Dobrava_virus                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         75.89%    passed     86.60%
+  50  lcl|JQ082300.1_cds_AEZ02946.1_3__gene_S___protein_N                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              78.01%    passed     81.05%
+  51  JQ082300.1_Sangassou_virus                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       78.01%    passed     81.05%
+  52  KC490918.1_Anjozorobe_hantavirus                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 30.14%    passed     93.10%
+WARNING: 34 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            56.03%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: JF796022.1_Dabieshan_virus is identical to lcl|JF796022.1_cds_AFG26295.1_2__protein_nucleoprotein___protein_id_AFG26295.1_ but kept for subsequent analysis
+NOTE: AJ011646.1_Topografov_hantavirus is identical to EU072480.1_Fusong_virus but kept for subsequent analysis
+NOTE: EF990912.1_Hantaanvirus_CGAa1015 is identical to EF990913.1_Hantaanvirus_CGAa1011 but kept for subsequent analysis
+NOTE: EF990910.1_Hantaanvirus_CGAa31P9 is identical to EF990911.1_Hantaanvirus_CGAa31MP7 but kept for subsequent analysis
+NOTE: EF990914.1_Hantaanvirus_CGAa4P15 is identical to EF990915.1_Hantaanvirus_CGAa4MP9 but kept for subsequent analysis
+NOTE: EF990906.1_Hantaanvirus_CGRn5310 is identical to EF990907.1_Hantaanvirus_CGRn53 but kept for subsequent analysis
+NOTE: EF990902.1_Hantavirus_CGRn9415 is identical to EF990903.1_Hantavirus_CGRn8316 but kept for subsequent analysis
+NOTE: GU140098.1_Hantavirus_KY is identical to lcl|GU140098.1_cds_ACY79415.1_3__protein_nucelocapsid_protein_ but kept for subsequent analysis
+NOTE: MK340905.1_Academ_virus is identical to lcl|MK340905.1_cds_QEG99436.1_3__protein_nucleocapsid___protein_id_QEG99436.1_ but kept for subsequent analysis
+NOTE: JF920150.1_Dobrava-Belgrade_virus is identical to lcl|JF920150.1_cds_AES92929.1_3__gene_S___protein_nucleocapsid but kept for subsequent analysis
+NOTE: lcl|AM998808.2_cds_CAQ53174.2_3__db_xref_GOA_B7ZGY6_InterPro_IPR002214_UniProtKB/TrEMBL_B7ZGY6___protein_nucleocapsid is identical to KC344252.1_Gou_virus but kept for subsequent analysis
+NOTE: M14626.1_Hantaan_virus is identical to lcl|M14626.1_cds_AAA43837.1_3__protein_id_AAA43837.1___location_37..1326_ but kept for subsequent analysis
+NOTE: JQ082300.1_Sangassou_virus is identical to lcl|JQ082300.1_cds_AEZ02946.1_3__gene_S___protein_N but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.000299478 secs using 59.1% CPU
+Identifying sites to remove: done in 0.000312561 secs using 98.54% CPU
+NOTE: 5 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: EF990909.1_Hantaanvirus_CGHu3612 (identical to EF990911.1_Hantaanvirus_CGAa31MP7) is ignored but added at the end
+NOTE: EF990908.1_Hantaanvirus_CGHu3614 (identical to EF990911.1_Hantaanvirus_CGAa31MP7) is ignored but added at the end
+NOTE: EU092219.1_Hantaanvirus_CGAa2 (identical to EF990911.1_Hantaanvirus_CGAa31MP7) is ignored but added at the end
+NOTE: EU092221.1_Hantaanvirus_CGRn45 (identical to EF990911.1_Hantaanvirus_CGAa31MP7) is ignored but added at the end
+NOTE: EF990905.1_Hantaanvirus_CGRn93MP8 (identical to EF990907.1_Hantaanvirus_CGRn53) is ignored but added at the end
+Alignment was printed to OR734632_in_1980413_blastn_short.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to OR734632_in_1980413_blastn_short.fasta.uniqueseq.phy
+
+Creating fast initial parsimony tree by random order stepwise addition...
+0.013 seconds, parsimony score: 266 (based on 115 sites)
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Optimizing NNI: done in 0.187299 secs using 94.78% CPU
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -1455.967
+Optimal log-likelihood: -1455.538
+Rate parameters:  A-C: 1.61147  A-G: 4.69413  A-T: 1.74136  C-G: 0.65214  C-T: 13.18257  G-T: 1.00000
+Base frequencies:  A: 0.374  C: 0.172  G: 0.288  T: 0.165
+Proportion of invariable sites: 0.300
+Gamma shape alpha: 0.612
+Parameters optimization took 1 rounds (0.038 sec)
+Time for fast ML tree search: 0.351 seconds
+
+NOTE: ModelFinder requires 3 MB RAM!
+ModelFinder will test up to 484 DNA models (sample size: 282) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  GTR+F         1548.046     99  3294.092     3402.883     3654.640
+  2  GTR+F+I       1461.624     100 3123.248     3234.850     3487.439
+  3  GTR+F+G4      1456.410     100 3112.819     3224.421     3477.010
+  4  GTR+F+I+G4    1455.591     101 3113.181     3227.648     3481.014
+  5  GTR+F+R2      1463.160     101 3128.320     3242.787     3496.153
+  6  GTR+F+R3      1459.180     103 3124.360     3244.719     3499.476
+ 14  GTR+F+I+R2    1456.198     102 3116.396     3233.782     3487.871
+ 15  GTR+F+I+R3    1455.308     104 3118.617     3242.006     3497.375
+ 25  SYM+G4        1476.857     97  3147.714     3251.040     3500.979
+ 26  SYM+I+G4      1475.566     98  3147.132     3253.164     3504.038
+ 47  TVM+F+G4      1464.857     99  3127.714     3236.505     3488.263
+ 48  TVM+F+I+G4    1464.192     100 3128.384     3239.986     3492.575
+ 69  TVMe+G4       1477.102     96  3146.205     3246.875     3495.828
+ 70  TVMe+I+G4     1475.846     97  3145.691     3249.017     3498.956
+ 91  TIM3+F+G4     1458.406     98  3112.812     3218.845     3469.719
+ 92  TIM3+F+I+G4   1457.903     99  3113.806     3222.598     3474.355
+113  TIM3e+G4      1479.744     95  3149.489     3247.553     3495.470
+114  TIM3e+I+G4    1479.073     96  3150.146     3250.817     3499.770
+135  TIM2+F+G4     1456.517     98  3109.034     3215.067     3465.941
+136  TIM2+F+I+G4   1455.756     99  3109.511     3218.303     3470.060
+157  TIM2e+G4      1477.004     95  3144.008     3242.073     3489.989
+158  TIM2e+I+G4    1475.740     96  3143.480     3244.150     3493.103
+179  TIM+F+G4      1458.481     98  3112.962     3218.994     3469.869
+180  TIM+F+I+G4    1457.990     99  3113.979     3222.771     3474.528
+201  TIMe+G4       1479.876     95  3149.751     3247.816     3495.732
+202  TIMe+I+G4     1479.217     96  3150.434     3251.104     3500.057
+223  TPM3u+F+G4    1466.484     97  3126.968     3230.294     3480.233
+224  TPM3u+F+I+G4  1466.211     98  3128.421     3234.454     3485.328
+245  TPM3+G4       1479.953     94  3147.905     3243.413     3490.245
+246  TPM3+I+G4     1479.297     95  3148.593     3246.658     3494.574
+267  TPM2u+F+G4    1464.962     97  3123.924     3227.250     3477.189
+268  TPM2u+F+I+G4  1464.324     98  3124.647     3230.680     3481.554
+289  TPM2+G4       1477.250     94  3142.500     3238.008     3484.839
+290  TPM2+I+G4     1476.007     95  3142.015     3240.079     3487.996
+311  K3Pu+F+G4     1466.580     97  3127.160     3230.486     3480.425
+312  K3Pu+F+I+G4   1466.342     98  3128.683     3234.716     3485.590
+333  K3P+G4        1480.092     94  3148.183     3243.691     3490.522
+334  K3P+I+G4      1479.458     95  3148.916     3246.981     3494.898
+355  TN+F+G4       1458.490     97  3110.981     3214.307     3464.246
+356  TN+F+I+G4     1458.006     98  3112.012     3218.045     3468.919
+377  TNe+G4        1479.876     94  3147.752     3243.260     3490.091
+378  TNe+I+G4      1479.219     95  3148.438     3246.503     3494.419
+399  HKY+F+G4      1466.580     96  3125.161     3225.831     3474.784
+400  HKY+F+I+G4    1466.339     97  3126.679     3230.005     3479.944
+421  K2P+G4        1480.088     93  3146.176     3239.176     3484.873
+422  K2P+I+G4      1479.454     94  3146.908     3242.416     3489.248
+443  F81+F+G4      1528.370     95  3246.739     3344.804     3592.721
+444  F81+F+I+G4    1528.322     96  3248.644     3349.314     3598.267
+465  JC+G4         1553.537     92  3291.073     3381.613     3626.129
+466  JC+I+G4       1553.226     93  3292.451     3385.451     3631.149
+Akaike Information Criterion:           TIM2+F+G4
+Corrected Akaike Information Criterion: TN+F+G4
+Bayesian Information Criterion:         TN+F+G4
+Best-fit model: TN+F+G4 chosen according to BIC
+
+All model information printed to OR734632_in_1980413_blastn_short.fasta.model.gz
+CPU time for ModelFinder: 2.961 seconds (0h:0m:2s)
+Wall-clock time for ModelFinder: 3.078 seconds (0h:0m:3s)
+Generating 1000 samples for ultrafast bootstrap (seed: 808338)...
+
+NOTE: 1 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -1458.490
+Optimal log-likelihood: -1458.487
+Rate parameters:  A-C: 1.00000  A-G: 3.75118  A-T: 1.00000  C-G: 1.00000  C-T: 10.13817  G-T: 1.00000
+Base frequencies:  A: 0.374  C: 0.172  G: 0.288  T: 0.165
+Gamma shape alpha: 0.289
+Parameters optimization took 1 rounds (0.011 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0153814 secs using 89.51% CPU
+Computing ML distances took 0.015467 sec (of wall-clock time) 0.013853 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000140794 secs using 98.73% CPU
+Constructing RapidNJ tree: done in 0.000481073 secs using 99.57% CPU
+Computing RapidNJ tree took 0.000663 sec (of wall-clock time) 0.000688 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -1481.993
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.893 second
+Computing log-likelihood of 98 initial trees ... 0.443 seconds
+Current best score: -1458.487
+
+Do NNI search on 20 best initial trees
+Optimizing NNI: done in 0.0435834 secs using 99.49% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -1458.484
+Optimizing NNI: done in 0.295865 secs using 96.39% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -1444.134
+Optimizing NNI: done in 0.279946 secs using 95.27% CPU
+Optimizing NNI: done in 0.259442 secs using 95.71% CPU
+Optimizing NNI: done in 0.271841 secs using 98.06% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 5: -1442.932
+Optimizing NNI: done in 0.339097 secs using 94.54% CPU
+Optimizing NNI: done in 0.273221 secs using 95.9% CPU
+Optimizing NNI: done in 0.384248 secs using 97.47% CPU
+Optimizing NNI: done in 0.256642 secs using 96.42% CPU
+Optimizing NNI: done in 0.216897 secs using 97.24% CPU
+Iteration 10 / LogL: -1446.649 / Time: 0h:0m:4s
+Optimizing NNI: done in 0.271004 secs using 97.32% CPU
+Optimizing NNI: done in 0.330403 secs using 97.74% CPU
+Optimizing NNI: done in 0.263803 secs using 96.52% CPU
+Optimizing NNI: done in 0.315481 secs using 97.33% CPU
+Optimizing NNI: done in 0.196709 secs using 93.47% CPU
+Optimizing NNI: done in 0.13646 secs using 97.35% CPU
+Optimizing NNI: done in 0.360281 secs using 97.88% CPU
+Optimizing NNI: done in 0.36589 secs using 95.2% CPU
+Optimizing NNI: done in 0.345582 secs using 98.07% CPU
+Optimizing NNI: done in 0.376034 secs using 96.63% CPU
+Iteration 20 / LogL: -1453.392 / Time: 0h:0m:7s
+Finish initializing candidate tree set (20)
+Current best tree score: -1442.932 / CPU time: 6.998
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 0.127746 secs using 94.84% CPU
+Optimizing NNI: done in 0.283814 secs using 95.32% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 22: -1442.362
+Optimizing NNI: done in 0.194652 secs using 96.97% CPU
+Optimizing NNI: done in 0.280767 secs using 95.63% CPU
+Optimizing NNI: done in 0.203023 secs using 96.11% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 25: -1442.157
+Optimizing NNI: done in 0.269056 secs using 95.46% CPU
+Optimizing NNI: done in 0.22951 secs using 95.21% CPU
+BETTER TREE FOUND at iteration 27: -1442.155
+Optimizing NNI: done in 0.2887 secs using 96.38% CPU
+Optimizing NNI: done in 0.347774 secs using 95.81% CPU
+Optimizing NNI: done in 0.242973 secs using 96.26% CPU
+BETTER TREE FOUND at iteration 30: -1442.149
+Iteration 30 / LogL: -1442.149 / Time: 0h:0m:9s (0h:0m:33s left)
+Optimizing NNI: done in 0.257226 secs using 96.06% CPU
+Optimizing NNI: done in 0.191471 secs using 96.94% CPU
+Optimizing NNI: done in 0.190413 secs using 95.88% CPU
+Optimizing NNI: done in 0.200675 secs using 97.06% CPU
+Optimizing NNI: done in 0.138288 secs using 96.67% CPU
+Optimizing NNI: done in 0.221127 secs using 94.59% CPU
+Optimizing NNI: done in 0.295851 secs using 94.83% CPU
+Optimizing NNI: done in 0.168077 secs using 96.57% CPU
+Optimizing NNI: done in 0.231221 secs using 94.81% CPU
+Optimizing NNI: done in 0.225021 secs using 94.66% CPU
+Iteration 40 / LogL: -1463.029 / Time: 0h:0m:11s (0h:0m:27s left)
+Optimizing NNI: done in 0.189112 secs using 97.44% CPU
+Optimizing NNI: done in 0.182714 secs using 97.32% CPU
+Optimizing NNI: done in 0.280772 secs using 94.94% CPU
+Optimizing NNI: done in 0.255426 secs using 96.42% CPU
+Optimizing NNI: done in 0.260665 secs using 96.1% CPU
+Optimizing NNI: done in 0.188016 secs using 96.38% CPU
+Optimizing NNI: done in 0.233842 secs using 95.71% CPU
+Optimizing NNI: done in 0.31689 secs using 93.57% CPU
+Optimizing NNI: done in 0.186215 secs using 97.4% CPU
+Optimizing NNI: done in 0.353593 secs using 95.6% CPU
+Iteration 50 / LogL: -1443.881 / Time: 0h:0m:14s (0h:0m:23s left)
+Log-likelihood cutoff on original alignment: -1481.492
+Optimizing NNI: done in 0.237216 secs using 97.42% CPU
+Optimizing NNI: done in 0.248917 secs using 96.74% CPU
+Optimizing NNI: done in 0.239509 secs using 97.87% CPU
+Optimizing NNI: done in 0.277356 secs using 95.96% CPU
+Optimizing NNI: done in 0.203168 secs using 97.08% CPU
+Optimizing NNI: done in 0.270144 secs using 96.59% CPU
+Optimizing NNI: done in 0.263406 secs using 95.75% CPU
+Optimizing NNI: done in 0.200865 secs using 98.54% CPU
+Optimizing NNI: done in 0.272909 secs using 95.49% CPU
+Optimizing NNI: done in 0.253804 secs using 96.8% CPU
+Iteration 60 / LogL: -1442.154 / Time: 0h:0m:17s (0h:0m:20s left)
+Optimizing NNI: done in 0.249931 secs using 96.36% CPU
+Optimizing NNI: done in 0.278632 secs using 95.97% CPU
+Optimizing NNI: done in 0.358479 secs using 96.76% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 63: -1442.126
+Optimizing NNI: done in 0.261535 secs using 95.73% CPU
+Optimizing NNI: done in 0.213635 secs using 96.27% CPU
+Optimizing NNI: done in 0.279585 secs using 96.33% CPU
+Optimizing NNI: done in 0.195918 secs using 98.03% CPU
+Optimizing NNI: done in 0.246283 secs using 95.1% CPU
+Optimizing NNI: done in 0.277296 secs using 95.95% CPU
+Optimizing NNI: done in 0.2328 secs using 96.12% CPU
+Iteration 70 / LogL: -1442.613 / Time: 0h:0m:19s (0h:0m:26s left)
+Optimizing NNI: done in 0.231597 secs using 96.54% CPU
+Optimizing NNI: done in 0.221588 secs using 95.91% CPU
+Optimizing NNI: done in 0.228151 secs using 96.92% CPU
+Optimizing NNI: done in 0.190556 secs using 94.84% CPU
+Optimizing NNI: done in 0.249184 secs using 95.54% CPU
+Optimizing NNI: done in 0.44141 secs using 94.99% CPU
+Optimizing NNI: done in 0.126368 secs using 97.95% CPU
+Optimizing NNI: done in 0.16569 secs using 95.91% CPU
+Optimizing NNI: done in 0.17884 secs using 98.43% CPU
+Optimizing NNI: done in 0.218134 secs using 96.35% CPU
+Iteration 80 / LogL: -1442.153 / Time: 0h:0m:22s (0h:0m:23s left)
+Optimizing NNI: done in 0.342317 secs using 95.17% CPU
+Optimizing NNI: done in 0.297759 secs using 94.53% CPU
+Optimizing NNI: done in 0.170762 secs using 94.89% CPU
+Optimizing NNI: done in 0.349108 secs using 97.82% CPU
+Optimizing NNI: done in 0.169418 secs using 95.43% CPU
+Optimizing NNI: done in 0.227794 secs using 95.17% CPU
+Optimizing NNI: done in 0.28636 secs using 96.42% CPU
+Optimizing NNI: done in 0.181185 secs using 97.88% CPU
+Optimizing NNI: done in 0.189535 secs using 97.97% CPU
+Optimizing NNI: done in 0.515694 secs using 95.87% CPU
+Iteration 90 / LogL: -1449.255 / Time: 0h:0m:24s (0h:0m:20s left)
+Optimizing NNI: done in 0.263078 secs using 95% CPU
+Optimizing NNI: done in 0.187259 secs using 97.42% CPU
+Optimizing NNI: done in 0.309211 secs using 96.32% CPU
+Optimizing NNI: done in 0.259251 secs using 95.7% CPU
+Optimizing NNI: done in 0.198443 secs using 96.54% CPU
+Optimizing NNI: done in 0.227397 secs using 96.91% CPU
+Optimizing NNI: done in 0.196039 secs using 97.49% CPU
+Optimizing NNI: done in 0.204936 secs using 95.66% CPU
+Optimizing NNI: done in 0.359077 secs using 95.38% CPU
+Optimizing NNI: done in 0.244011 secs using 96.69% CPU
+Iteration 100 / LogL: -1442.569 / Time: 0h:0m:27s (0h:0m:17s left)
+Log-likelihood cutoff on original alignment: -1481.492
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.987
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Optimizing NNI: done in 0.333705 secs using 96.56% CPU
+Optimizing NNI: done in 0.260737 secs using 96.11% CPU
+Optimizing NNI: done in 0.240211 secs using 96.22% CPU
+Optimizing NNI: done in 0.198482 secs using 96.54% CPU
+Optimizing NNI: done in 0.211416 secs using 96.71% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 105: -1442.104
+Optimizing NNI: done in 0.240457 secs using 96.64% CPU
+Optimizing NNI: done in 0.216448 secs using 96.77% CPU
+Optimizing NNI: done in 0.252547 secs using 96% CPU
+Optimizing NNI: done in 0.214124 secs using 95.82% CPU
+Optimizing NNI: done in 0.257796 secs using 92.58% CPU
+Iteration 110 / LogL: -1442.407 / Time: 0h:0m:30s (0h:0m:26s left)
+Optimizing NNI: done in 0.243896 secs using 96.68% CPU
+Optimizing NNI: done in 0.231518 secs using 95.24% CPU
+Optimizing NNI: done in 0.243116 secs using 96.68% CPU
+Optimizing NNI: done in 0.188265 secs using 95.31% CPU
+Optimizing NNI: done in 0.250426 secs using 97.55% CPU
+Optimizing NNI: done in 0.290961 secs using 96.45% CPU
+Optimizing NNI: done in 0.201691 secs using 96.57% CPU
+Optimizing NNI: done in 0.201073 secs using 94.1% CPU
+Optimizing NNI: done in 0.194459 secs using 94.43% CPU
+Optimizing NNI: done in 0.174468 secs using 96.68% CPU
+Iteration 120 / LogL: -1443.196 / Time: 0h:0m:32s (0h:0m:23s left)
+Optimizing NNI: done in 0.262448 secs using 97.27% CPU
+Optimizing NNI: done in 0.267835 secs using 92.12% CPU
+Optimizing NNI: done in 0.157195 secs using 95.73% CPU
+Optimizing NNI: done in 0.240473 secs using 94.57% CPU
+Optimizing NNI: done in 0.288855 secs using 97.48% CPU
+Optimizing NNI: done in 0.417075 secs using 96.21% CPU
+Optimizing NNI: done in 0.319557 secs using 96.11% CPU
+Optimizing NNI: done in 0.261322 secs using 96.11% CPU
+Optimizing NNI: done in 0.271603 secs using 96.61% CPU
+Optimizing NNI: done in 0.210867 secs using 95.77% CPU
+Iteration 130 / LogL: -1447.420 / Time: 0h:0m:35s (0h:0m:20s left)
+Optimizing NNI: done in 0.244122 secs using 97.09% CPU
+Optimizing NNI: done in 0.329604 secs using 96.52% CPU
+Optimizing NNI: done in 0.23574 secs using 95.74% CPU
+Optimizing NNI: done in 0.252336 secs using 96.77% CPU
+Optimizing NNI: done in 0.105677 secs using 96.66% CPU
+Optimizing NNI: done in 0.188736 secs using 96.38% CPU
+Optimizing NNI: done in 0.172752 secs using 94.35% CPU
+Optimizing NNI: done in 0.251667 secs using 95.19% CPU
+Optimizing NNI: done in 0.270611 secs using 95.86% CPU
+Optimizing NNI: done in 0.289363 secs using 97.49% CPU
+Iteration 140 / LogL: -1442.762 / Time: 0h:0m:37s (0h:0m:17s left)
+Optimizing NNI: done in 0.122894 secs using 95.47% CPU
+Optimizing NNI: done in 0.294734 secs using 96.5% CPU
+Optimizing NNI: done in 0.309443 secs using 96.65% CPU
+Optimizing NNI: done in 0.309889 secs using 96.01% CPU
+Optimizing NNI: done in 0.223021 secs using 95.97% CPU
+Optimizing NNI: done in 0.230555 secs using 95.65% CPU
+Optimizing NNI: done in 0.232041 secs using 96.9% CPU
+Optimizing NNI: done in 0.264371 secs using 97.65% CPU
+Optimizing NNI: done in 0.158219 secs using 94.5% CPU
+Optimizing NNI: done in 0.238417 secs using 97.45% CPU
+Iteration 150 / LogL: -1443.273 / Time: 0h:0m:40s (0h:0m:14s left)
+Log-likelihood cutoff on original alignment: -1481.492
+Optimizing NNI: done in 0.240008 secs using 96.22% CPU
+Optimizing NNI: done in 0.199998 secs using 95.06% CPU
+Optimizing NNI: done in 0.243753 secs using 96.68% CPU
+Optimizing NNI: done in 0.262159 secs using 94.58% CPU
+Optimizing NNI: done in 0.211408 secs using 98.59% CPU
+Optimizing NNI: done in 0.227905 secs using 96.04% CPU
+Optimizing NNI: done in 0.222919 secs using 96.42% CPU
+Optimizing NNI: done in 0.281613 secs using 96.01% CPU
+Optimizing NNI: done in 0.368186 secs using 96.57% CPU
+Optimizing NNI: done in 0.319326 secs using 96.11% CPU
+Iteration 160 / LogL: -1444.023 / Time: 0h:0m:43s (0h:0m:12s left)
+Optimizing NNI: done in 0.237076 secs using 96.18% CPU
+Optimizing NNI: done in 0.176167 secs using 95.58% CPU
+Optimizing NNI: done in 0.268089 secs using 97.31% CPU
+Optimizing NNI: done in 0.28066 secs using 96.36% CPU
+Optimizing NNI: done in 0.281536 secs using 94.95% CPU
+Optimizing NNI: done in 0.204074 secs using 96.11% CPU
+Optimizing NNI: done in 0.179452 secs using 95.65% CPU
+Optimizing NNI: done in 0.264664 secs using 96.53% CPU
+Optimizing NNI: done in 0.264966 secs using 97.29% CPU
+Optimizing NNI: done in 0.183063 secs using 97.88% CPU
+Iteration 170 / LogL: -1442.529 / Time: 0h:0m:45s (0h:0m:9s left)
+Optimizing NNI: done in 0.256903 secs using 96.44% CPU
+Optimizing NNI: done in 0.289557 secs using 96.79% CPU
+Optimizing NNI: done in 0.263245 secs using 94.76% CPU
+Optimizing NNI: done in 0.196923 secs using 97.02% CPU
+Optimizing NNI: done in 0.126344 secs using 96.38% CPU
+Optimizing NNI: done in 0.28389 secs using 95.69% CPU
+Optimizing NNI: done in 0.189308 secs using 97.96% CPU
+Optimizing NNI: done in 0.211604 secs using 96.72% CPU
+Optimizing NNI: done in 0.200782 secs using 97.06% CPU
+Optimizing NNI: done in 0.197657 secs using 95.01% CPU
+Iteration 180 / LogL: -1442.108 / Time: 0h:0m:48s (0h:0m:6s left)
+Optimizing NNI: done in 0.164853 secs using 95.92% CPU
+Optimizing NNI: done in 0.232075 secs using 96.52% CPU
+Optimizing NNI: done in 0.211613 secs using 94.84% CPU
+Optimizing NNI: done in 0.169409 secs using 94.26% CPU
+Optimizing NNI: done in 0.25265 secs using 94.41% CPU
+Optimizing NNI: done in 0.274145 secs using 96.99% CPU
+Optimizing NNI: done in 0.2511 secs using 96.36% CPU
+Optimizing NNI: done in 0.196182 secs using 97% CPU
+Optimizing NNI: done in 0.216699 secs using 94.95% CPU
+Optimizing NNI: done in 0.215612 secs using 94% CPU
+Iteration 190 / LogL: -1443.865 / Time: 0h:0m:50s (0h:0m:4s left)
+Optimizing NNI: done in 0.166987 secs using 97.14% CPU
+Optimizing NNI: done in 0.195537 secs using 97.49% CPU
+Optimizing NNI: done in 0.25437 secs using 97.58% CPU
+Optimizing NNI: done in 0.382615 secs using 94.58% CPU
+Optimizing NNI: done in 0.251153 secs using 94.38% CPU
+Optimizing NNI: done in 0.272092 secs using 95.15% CPU
+Optimizing NNI: done in 0.223398 secs using 96.88% CPU
+Optimizing NNI: done in 0.283569 secs using 94.97% CPU
+Optimizing NNI: done in 0.223123 secs using 95.53% CPU
+Optimizing NNI: done in 0.186746 secs using 97.4% CPU
+Iteration 200 / LogL: -1442.153 / Time: 0h:0m:53s (0h:0m:1s left)
+Log-likelihood cutoff on original alignment: -1481.492
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.989
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Optimizing NNI: done in 0.293099 secs using 97.84% CPU
+Optimizing NNI: done in 0.236835 secs using 95.75% CPU
+Optimizing NNI: done in 0.182042 secs using 95.72% CPU
+Optimizing NNI: done in 0.155315 secs using 96.33% CPU
+Optimizing NNI: done in 0.268594 secs using 94.72% CPU
+Optimizing NNI: done in 0.182259 secs using 96.26% CPU
+Optimizing NNI: done in 0.261711 secs using 94.21% CPU
+Optimizing NNI: done in 0.205808 secs using 97.61% CPU
+Optimizing NNI: done in 0.200765 secs using 97.55% CPU
+Optimizing NNI: done in 0.291351 secs using 97.49% CPU
+Iteration 210 / LogL: -1442.144 / Time: 0h:0m:56s (0h:0m:24s left)
+Optimizing NNI: done in 0.138465 secs using 98.83% CPU
+Optimizing NNI: done in 0.201915 secs using 95.59% CPU
+Optimizing NNI: done in 0.205333 secs using 95.61% CPU
+Optimizing NNI: done in 0.247203 secs using 97.13% CPU
+Optimizing NNI: done in 0.208786 secs using 96.19% CPU
+Optimizing NNI: done in 0.238284 secs using 96.62% CPU
+Optimizing NNI: done in 0.265381 secs using 95.41% CPU
+Optimizing NNI: done in 0.24588 secs using 96.71% CPU
+Optimizing NNI: done in 0.311343 secs using 96.02% CPU
+Optimizing NNI: done in 0.286528 secs using 95.37% CPU
+Iteration 220 / LogL: -1442.107 / Time: 0h:0m:58s (0h:0m:21s left)
+Optimizing NNI: done in 0.207163 secs using 95.21% CPU
+Optimizing NNI: done in 0.257712 secs using 96.06% CPU
+Optimizing NNI: done in 0.185355 secs using 94.17% CPU
+Optimizing NNI: done in 0.210028 secs using 97.65% CPU
+Optimizing NNI: done in 0.307921 secs using 96.63% CPU
+Optimizing NNI: done in 0.23861 secs using 97.43% CPU
+Optimizing NNI: done in 0.252816 secs using 96.38% CPU
+Optimizing NNI: done in 0.221909 secs using 95.49% CPU
+Optimizing NNI: done in 0.175013 secs using 95.56% CPU
+Optimizing NNI: done in 0.216847 secs using 95.39% CPU
+Iteration 230 / LogL: -1442.359 / Time: 0h:1m:1s (0h:0m:18s left)
+Optimizing NNI: done in 0.232045 secs using 96.52% CPU
+Optimizing NNI: done in 0.326334 secs using 97.01% CPU
+Optimizing NNI: done in 0.250389 secs using 95.96% CPU
+Optimizing NNI: done in 0.221066 secs using 94.13% CPU
+Optimizing NNI: done in 0.30493 secs using 95.3% CPU
+Optimizing NNI: done in 0.343866 secs using 95.78% CPU
+Optimizing NNI: done in 0.219343 secs using 96.35% CPU
+Optimizing NNI: done in 0.178809 secs using 96.22% CPU
+Optimizing NNI: done in 0.306137 secs using 94.99% CPU
+Optimizing NNI: done in 0.227944 secs using 96.05% CPU
+Iteration 240 / LogL: -1450.607 / Time: 0h:1m:4s (0h:0m:16s left)
+Optimizing NNI: done in 0.224087 secs using 96.88% CPU
+Optimizing NNI: done in 0.231053 secs using 96.96% CPU
+Optimizing NNI: done in 0.18915 secs using 97.96% CPU
+Optimizing NNI: done in 0.229792 secs using 95.21% CPU
+Optimizing NNI: done in 0.149551 secs using 96.23% CPU
+Optimizing NNI: done in 0.23566 secs using 96.57% CPU
+Optimizing NNI: done in 0.110502 secs using 95.05% CPU
+Optimizing NNI: done in 0.319035 secs using 97.35% CPU
+Optimizing NNI: done in 0.29652 secs using 96.85% CPU
+Optimizing NNI: done in 0.375215 secs using 95.27% CPU
+Iteration 250 / LogL: -1443.138 / Time: 0h:1m:6s (0h:0m:13s left)
+Log-likelihood cutoff on original alignment: -1481.492
+Optimizing NNI: done in 0.176631 secs using 95.6% CPU
+Optimizing NNI: done in 0.270348 secs using 95.49% CPU
+Optimizing NNI: done in 0.173798 secs using 96.11% CPU
+Optimizing NNI: done in 0.365327 secs using 96.54% CPU
+Optimizing NNI: done in 0.29993 secs using 96.55% CPU
+Optimizing NNI: done in 0.222153 secs using 96.85% CPU
+Optimizing NNI: done in 0.272885 secs using 95.53% CPU
+Optimizing NNI: done in 0.209686 secs using 96.58% CPU
+Optimizing NNI: done in 0.22764 secs using 96.04% CPU
+Optimizing NNI: done in 0.225928 secs using 96.45% CPU
+Iteration 260 / LogL: -1442.112 / Time: 0h:1m:9s (0h:0m:10s left)
+Optimizing NNI: done in 0.211661 secs using 96.71% CPU
+Optimizing NNI: done in 0.126511 secs using 97.97% CPU
+Optimizing NNI: done in 0.222155 secs using 94.61% CPU
+Optimizing NNI: done in 0.248904 secs using 95.55% CPU
+Optimizing NNI: done in 0.246843 secs using 97.12% CPU
+Optimizing NNI: done in 0.250509 secs using 96.75% CPU
+Optimizing NNI: done in 0.207448 secs using 97.63% CPU
+Optimizing NNI: done in 0.230101 secs using 96.5% CPU
+Optimizing NNI: done in 0.334932 secs using 96.55% CPU
+Optimizing NNI: done in 0.217146 secs using 96.74% CPU
+Iteration 270 / LogL: -1442.147 / Time: 0h:1m:12s (0h:0m:8s left)
+Optimizing NNI: done in 0.342734 secs using 96.93% CPU
+Optimizing NNI: done in 0.219275 secs using 98.19% CPU
+Optimizing NNI: done in 0.324389 secs using 96.47% CPU
+Optimizing NNI: done in 0.284307 secs using 97.79% CPU
+Optimizing NNI: done in 0.163533 secs using 97.71% CPU
+Optimizing NNI: done in 0.258676 secs using 96.85% CPU
+Optimizing NNI: done in 0.192377 secs using 93.33% CPU
+Optimizing NNI: done in 0.267405 secs using 96.56% CPU
+Optimizing NNI: done in 0.223922 secs using 94.66% CPU
+Optimizing NNI: done in 0.1842 secs using 97.38% CPU
+Iteration 280 / LogL: -1442.107 / Time: 0h:1m:15s (0h:0m:5s left)
+Optimizing NNI: done in 0.221711 secs using 97.75% CPU
+Optimizing NNI: done in 0.194508 secs using 97.49% CPU
+Optimizing NNI: done in 0.23554 secs using 96.16% CPU
+Optimizing NNI: done in 0.255406 secs using 97.2% CPU
+Optimizing NNI: done in 0.235253 secs using 96.58% CPU
+Optimizing NNI: done in 0.189206 secs using 99.01% CPU
+Optimizing NNI: done in 0.218896 secs using 97.69% CPU
+Optimizing NNI: done in 0.190231 secs using 95.36% CPU
+Optimizing NNI: done in 0.175443 secs using 94.99% CPU
+Optimizing NNI: done in 0.193775 secs using 96.97% CPU
+Iteration 290 / LogL: -1442.108 / Time: 0h:1m:17s (0h:0m:2s left)
+Optimizing NNI: done in 0.146417 secs using 96.13% CPU
+Optimizing NNI: done in 0.360468 secs using 96.51% CPU
+Optimizing NNI: done in 0.345359 secs using 96.64% CPU
+Optimizing NNI: done in 0.280891 secs using 94.23% CPU
+Optimizing NNI: done in 0.220827 secs using 97.28% CPU
+Optimizing NNI: done in 0.24781 secs using 96.74% CPU
+Optimizing NNI: done in 0.212096 secs using 93.45% CPU
+Optimizing NNI: done in 0.203408 secs using 97.57% CPU
+Optimizing NNI: done in 0.185094 secs using 97.38% CPU
+Optimizing NNI: done in 0.171664 secs using 92.57% CPU
+Iteration 300 / LogL: -1442.726 / Time: 0h:1m:20s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -1481.492
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.992
+TREE SEARCH COMPLETED AFTER 300 ITERATIONS / Time: 0h:1m:20s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -1442.104
+Optimal log-likelihood: -1442.103
+Rate parameters:  A-C: 1.00000  A-G: 4.55887  A-T: 1.00000  C-G: 1.00000  C-T: 11.75498  G-T: 1.00000
+Base frequencies:  A: 0.374  C: 0.172  G: 0.288  T: 0.165
+Gamma shape alpha: 0.264
+Parameters optimization took 1 rounds (0.011 sec)
+BEST SCORE FOUND : -1442.103
+Creating bootstrap support values...
+Split supports printed to NEXUS file OR734632_in_1980413_blastn_short.fasta.splits.nex
+Total tree length: 2.568
+
+Total number of iterations: 300
+CPU time used for tree search: 77.046 sec (0h:1m:17s)
+Wall-clock time used for tree search: 80.204 sec (0h:1m:20s)
+Total CPU time used: 77.296 sec (0h:1m:17s)
+Total wall-clock time used: 80.480 sec (0h:1m:20s)
+
+Computing bootstrap consensus tree...
+Reading input file OR734632_in_1980413_blastn_short.fasta.splits.nex...
+47 taxa and 1592 splits.
+Consensus tree written to OR734632_in_1980413_blastn_short.fasta.contree
+Reading input trees file OR734632_in_1980413_blastn_short.fasta.contree
+Log-likelihood of consensus tree: -1442.243
+
+Analysis results written to: 
+  IQ-TREE report:                OR734632_in_1980413_blastn_short.fasta.iqtree
+  Maximum-likelihood tree:       OR734632_in_1980413_blastn_short.fasta.treefile
+  Likelihood distances:          OR734632_in_1980413_blastn_short.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          OR734632_in_1980413_blastn_short.fasta.splits.nex
+  Consensus tree:                OR734632_in_1980413_blastn_short.fasta.contree
+  Screen log file:               OR734632_in_1980413_blastn_short.fasta.log
+
+Date and Time: Tue Dec  5 10:11:36 2023
