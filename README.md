@@ -9,7 +9,7 @@
 - [Other scripts](#Other_scripts)
 ## Introduction
 
-`order_me` is a pipeline of bash and python scripts designed to track the evolution of a specific sequence of interest within a specified taxonomic group. Various scripts download genomic data, perform sequence searches, and generate alignments for further analysis. 
+`order_me` is a pipeline of 9 bash and python scripts designed to track the evolution of a specific sequence of interest within a specified taxonomic group. Various scripts download genomic data, perform sequence searches, and generate alignments for further analysis. 
 
 Functionality to make and view phylogentic trees is also included
 
