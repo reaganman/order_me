@@ -12,7 +12,8 @@
 `order_me` is a pipeline of 9 bash and python scripts designed to track the evolution of a specific sequence of interest within a specified taxonomic group. Various scripts download genomic data, perform sequence searches, generate alignments and create a consensus tree. Subseqent analysis of the results can be used to identify homologs, investigate sequencence function, and determine evolutionary significance. This pipeline is intended to be run with a slurm manager.  
 
 General data flow:
-![data_flow](order_me data flow.png)
+
+![data_flow](data_flow.png)
 
 
 
@@ -100,7 +101,7 @@ bash order_me.sh --query OR734632 --taxid 1980413 --email [your_email]
 This searches the taxonomic group Hantaviridae for sequences homologous to Orthohantavirus nucleocapsid protein gene
 
 Generated tree is included
-![Local Image](OR734632_in_1980413_blastn_short_tree.png)
+![Local Image](OR734632/OR734632_in_1980413_blastn_short_tree.png)
 NOTE THE NAMING ISSUES THAT NEED TO BE FIXED/MERGED IN THE GENERATED FASTA
 
 ## Purpose and usage of individual scripts
@@ -130,18 +131,16 @@ Usage:
 ```bash
 bash blast_em.sh --Assemblies [assemblies_dir] --query [queryID] --blast_type [blastn, blastn_short, tblastx] --evalue [evalue] --merge_by [species, id] --output_alignment[name_to_save_alignment]
 ```
-BLAST results for individual assemblies can be viewed in the assemblies directory (
+BLAST results for individual assemblies can be viewed in the assemblies directory ex: Assemblies_1980413/ASM282226v1/GCA_002822265.1_ASM282226v1_cds_from_genomic_OR734632_blastn_short_results_formatted.tsv
 
 NOTE: PROCESSING BLAST REUSLTS WILL NOT WORK IF --BLAST_TYPE TBLASTX IS USED 
 ### get_fasta_from_blast.py 
 Making fasta files for each blast hit with query sequence to align
-
-Individual hit fastas are saved with the associated assembly
 Usage: 
 ```bash
 python3 get_fasta_from_blast.py results_file [_blastn.tsv] header [must_match_outfmt_of_blast] query_file [query.fasta]
 ```
-For formatting example of blast results see `blast_em.sh` and 
+Fasta for individual hits are saved with the associated assembly ex: Assemblies_1980413/ASM282226v1/GCA_002822265.1_ASM282226v1_cds_from_genomic_OR734632_blastn_short_results_formatted_combined_0.fasta 
 
 ### merge_by_species.py
 Generating a consensus sequence for each species in the input fasta
