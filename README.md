@@ -9,13 +9,16 @@
 - [Other scripts](#Other_scripts)
 ## Introduction
 
-`order_me` is a pipeline of 9 bash and python scripts designed to track the evolution of a specific sequence of interest within a specified taxonomic group. Various scripts download genomic data, perform sequence searches, and generate alignments for further analysis. 
+`order_me` is a pipeline of 9 bash and python scripts designed to track the evolution of a specific sequence of interest within a specified taxonomic group. Various scripts download genomic data, perform sequence searches, generate alignments and create a consensus tree. Subseqent analysis of the results can be used to identify homologs, investigate sequencence function, and determine evolutionary significance. This pipeline is intended to be run with a slurm manager.  
 
-Functionality to make and view phylogentic trees is also included
+General data flow:
+[order_me data flow.png](data_flow)
+
+
 
 ## Dependencies
 
-Ensure you have the following dependencies available before running the pipeline:
+Ensure that the following dependencies are accesable before running the pipeline:
 - blast (performing local alignment search)
 - Python 3 (processing blast results)
 - BioPython (downloading genomes and dealing with fastas)
