@@ -1,5 +1,5 @@
 # order_me pipeline
-bash and python scripts designed to track the evolution of a specific sequence of interest within a specified taxonomic group.
+
 ## Contents
 
 - [Introduction](#introduction)
