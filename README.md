@@ -1,5 +1,5 @@
 # order_me pipeline
-A pipeline of bash and python scripts designed to track the evolution of a sequence of interest within a specified taxonomic group.
+A pipeline of bash and python scripts designed to track the evolution of a sequence of interest within a taxonomic group. Useful for investigating sequence evolution and function
 
 Author: Reagan McKee
 ## Contents
