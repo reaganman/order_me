@@ -1,5 +1,7 @@
 # order_me pipeline
+A pipeline of bash and python scripts designed to track the evolution of a sequence of interest within a specified taxonomic group.
 
+Author: Reagan McKee
 ## Contents
 
 - [Introduction](#introduction)
@@ -29,9 +31,6 @@ Ensure that the following dependencies are accessable before running the pipelin
 - mafft (aligning blast results)
 
 Alternativley there is a conda environment with the required dependencies that can be loaded by running:
-
-MAKE SURE YOU HAVE IMPORTANT DOCUMENTS SAVED...
-
 ```bash
 conda env create -f order_me_env.yml
 conda activate order_me_environment
